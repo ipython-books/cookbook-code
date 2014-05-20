@@ -30,7 +30,7 @@ tools/                          contains various build scripts
     ...
 ```
 
-All the code is in the `notebooks/` folder. A selection of recipes, called *featured recipes**, are in `featured/`. They contain entire recipes (text with the explanations, the code, the figures).
+All the code is in the `notebooks/` folder. A selection of recipes, called *featured recipes*, are in `featured/`. They contain entire recipes (text with the explanations, the code, the figures).
 
 
 ## Installation
