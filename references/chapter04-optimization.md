@@ -1,58 +1,63 @@
 # Profiling and Optimization
 
+
 ## Profiling
 
-* [Program optimization on wikipedia](http://en.wikipedia.org/wiki/Program_optimization).
-* [timeit module](http://docs.python.org/3/library/timeit.html)
-* [profile module](http://docs.python.org/3/library/profile.html)
-* [easy_profiler module](http://github.com/rossant/easy_profiler)
-* [line_profiler][http://pythonhosted.org/line_profiler/).
-* [deal with @profile](http://stackoverflow.com/questions/18229628/python-profiling-using-line-profiler-clever-way-to-remove-profile-statements)
+* [Program optimization on Wikipedia](http://en.wikipedia.org/wiki/Program_optimization).
+* [Python's `timeit` module](http://docs.python.org/3/library/timeit.html).
+* [Python's `profile` module](http://docs.python.org/3/library/profile.html).
+* [`easy_profiler` that simplifies the use of Python profiling tools](http://github.com/rossant/easy_profiler).
+* [`line_profiler`, a line-by-line profiler, for Python 2 only](http://pythonhosted.org/line_profiler/).
+* [How to deal with `@profile` in profiled code](http://stackoverflow.com/questions/18229628/python-profiling-using-line-profiler-clever-way-to-remove-profile-statements).
+* [RunSnakeRun, a viewer for profiling results](http://www.vrplumber.com/programming/runsnakerun/).
+
 
 ## Memory profiling
 
-* http://pypi.python.org/pypi/memory_profiler
-* http://pypi.python.org/pypi/psutil
-* Guppy-PE (http://guppy-pe.sourceforge.net)
-* PySizer (http://pysizer.8325.org)
-* Pympler (http://code.google.com/p/pympler/)
+* [`memory_profiler` package](http://pypi.python.org/pypi/memory_profiler).
+* [`psutil` package, required by `memory_profiler`](http://pypi.python.org/pypi/psutil).
+* [Guppy-PE, a memory profiling package](http://guppy-pe.sourceforge.net).
+* [PySizer, a memory profiler for Python](http://pysizer.8325.org).
+* [Pympler, another memory profiler](http://code.google.com/p/pympler/).
+
 
 ## Code tracing
 
-* https://docs.python.org/3/library/trace.html
-* http://pythontutor.com/
-* http://blog.ionelmc.ro/2013/06/08/python-profiling-tools/
-* http://www.vrplumber.com/programming/runsnakerun/
+* [Python's `trace` module](https://docs.python.org/3/library/trace.html).
+* [Online Python Tutor, a great educational interactive tool to visualize the step-by-step execution of Python code](http://pythontutor.com/).
+* [Some Python profiling tools](http://blog.ionelmc.ro/2013/06/08/python-profiling-tools/).
+
 
 ## NumPy code optimization
 
-* Broadcasting rules and examples (docs.scipy.org/doc/numpy/user/basics.broadcasting.html).
-* Array interface in NumPy (docs.scipy.org/doc/numpy/reference/arrays.interface.html).
-* Locality of reference (en.wikipedia.org/wiki/Locality_of_reference).
-* Internals of NumPy in the SciPy lectures notes (scipy-lectures.github.io/advanced/advanced_numpy/).
-
-* The complete list of NumPy routines is available on the NumPy Reference Guide (docs.scipy.org/doc/numpy/reference/).
-* List of indexing routines (docs.scipy.org/doc/numpy/reference/routines.indexing.html).
+* [Broadcasting rules and examples](http://docs.scipy.org/doc/numpy/user/basics.broadcasting.html).
+* [Array interface in NumPy](http://docs.scipy.org/doc/numpy/reference/arrays.interface.html).
+* [Locality of reference](http://en.wikipedia.org/wiki/Locality_of_reference).
+* [Internals of NumPy in the SciPy lectures notes](http://scipy-lectures.github.io/advanced/advanced_numpy/).
+* [The complete list of NumPy routines is available on the NumPy Reference Guide](http://docs.scipy.org/doc/numpy/reference/).
+* [List of indexing routines](http://docs.scipy.org/doc/numpy/reference/routines.indexing.html).
 
 
 ## Memory mapping
 
-* SciPy lecture notes about sparse matrices (scipy-lectures.github.io/advanced/scipy_sparse/index.html).
-* Reference documentation on sparse matrices (docs.scipy.org/doc/scipy/reference/sparse.html).
-* Documentation of memmap (docs.scipy.org/doc/numpy/reference/generated/numpy.memmap.html).
+* [Documentation of memmap](http://docs.scipy.org/doc/numpy/reference/generated/numpy.memmap.html).
+
+
+## Sparse matrices
+
+* [SciPy lecture notes about sparse matrices](http://scipy-lectures.github.io/advanced/scipy_sparse/index.html).
+* [Reference documentation on sparse matrices](http://docs.scipy.org/doc/scipy/reference/sparse.html).
 
 
 ## HDF5
 
-* PyTables (pytables.github.io)
-* h5py (www.h5py.org)
-* Users (www.hdfgroup.org/users.html)
-* HDF5 chunking (www.hdfgroup.org/HDF5/doc/Advanced/Chunking/).
-* PyTables optimization guide (pytables.github.io/usersguide/optimization.html).
-* Difference between PyTables and h5py, from the perspective of h5py (github.com/h5py/h5py/wiki/FAQ#whats-the-difference-between-h5py-and-pytables).
-* Difference between PyTables and h5py, from the perspective of PyTables (www.pytables.org/moin/FAQ#HowdoesPyTablescomparewiththeh5pyproject.3F).
-
-
-* In-kernel queries (pytables.github.io/usersguide/condition_syntax.html).
-* An alternative to PyTables and HDF5 might come from the Blaze project, still in early development at the time of writing (blaze.pydata.org).
+* [PyTables](http://pytables.github.io)
+* [h5py](http://www.h5py.org)
+* [Partial list of HDF5 users](http://www.hdfgroup.org/users.html)
+* [HDF5 chunking](http://www.hdfgroup.org/HDF5/doc/Advanced/Chunking/).
+* [PyTables optimization guide, a must-read for PyTables users](http://pytables.github.io/usersguide/optimization.html).
+* [In-kernel queries](http://pytables.github.io/usersguide/condition_syntax.html).
+* [An alternative to PyTables and HDF5 might come from the Blaze project, still in early development at the time of writing](http://blaze.pydata.org).
+* [Difference between PyTables and h5py, from the perspective of h5py](http://github.com/h5py/h5py/wiki/FAQ#whats-the-difference-between-h5py-and-pytables).
+* [Difference between PyTables and h5py, from the perspective of PyTables](http://www.pytables.org/moin/FAQ#HowdoesPyTablescomparewiththeh5pyproject.3F).
 
