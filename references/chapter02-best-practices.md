@@ -1,4 +1,6 @@
-# Best practices
+# 2. Best practices in Interactive Computing
+
+Full list of references of Chapter 2 of the [IPython Cookbook][http://ipython-books.github.io), the definitive guide to high-performance scientific computing and data science in Python, by Dr. Cyrille Rossant, Packt Publishing, 400 pages, 2014.
 
 ## Python 2/Python 3
 
