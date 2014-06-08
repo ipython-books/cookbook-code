@@ -1,7 +1,7 @@
-IPython Cookbook: the code
-==========================
+IPython Cookbook
+================
 
-This repository contains the recipes of the [IPython Cookbook](https://ipython-books.github.io), the definitive guide to **high-performance scientific computing** and **data science** in Python (Cyrille Rossant, Packt Publishing, 400 pages, 2014). The book will be released later this summer!
+This repository contains the recipes of the [IPython Cookbook](https://ipython-books.github.io), the definitive guide to **high-performance scientific computing** and **data science** in Python (by [Dr. Cyrille Rossant](http://cyrille.rossant.net), Packt Publishing, 400 pages, 2014). The book will be released later this summer.
 
 This is work in progress: [stay tuned for the next updates](https://twitter.com/cyrillerossant)!
 
@@ -12,6 +12,7 @@ This is work in progress: [stay tuned for the next updates](https://twitter.com/
 
 * [2.7. Writing unit tests with nose (Python 2)](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter02_best_practices/07_unittests_py2.ipynb)
 * [2.7. Writing unit tests with nose (Python 3)](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter02_best_practices/07_unittests.ipynb)
+* [Full list of references](https://github.com/ipython-books/cookbook-code/blob/master/references/chapter02-best-practices.md).
 
 ### The rest is coming soon...
 
