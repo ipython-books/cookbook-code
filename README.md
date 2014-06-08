@@ -8,11 +8,28 @@ This is work in progress: [stay tuned for the next updates](https://twitter.com/
 
 ## Table of contents
 
+
 ### Chapter 2: Best practices in Interactive Computing
 
 * [2.7. Writing unit tests with nose (Python 2)](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter02_best_practices/07_unittests_py2.ipynb)
 * [2.7. Writing unit tests with nose (Python 3)](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter02_best_practices/07_unittests.ipynb)
 * [Full list of references](https://github.com/ipython-books/cookbook-code/blob/master/references/chapter02-best-practices.md).
+
+
+### Chapter 4: Profiling and Optimization
+
+* [4.1. Evaluating the time taken by a command in IPython](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter04_optimization/01_timeit.ipynb)
+* [4.2. Evaluating the time taken by a command in IPython](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter04_optimization/02_profile.ipynb)
+* [4.3. Profiling your code line by line with line_profiler](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter04_optimization/03_linebyline.ipynb)
+* [4.4. Profiling the memory usage of your code with memory_profiler](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter04_optimization/04_memprof.ipynb)
+* [4.5. Understanding the internals of NumPy to avoid unnecessary array copy](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter04_optimization/05_array_copies.ipynb)
+* [4.6. Using stride tricks with NumPy](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter04_optimization/06_stride_tricks.ipynb)
+* [4.7. Implementing an efficient rolling average algorithm with stride tricks](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter04_optimization/07_rolling_average.ipynb)
+* [4.8. Making efficient selections in arrays with NumPy](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter04_optimization/08_efficient_selections.ipynb)
+* [4.9. Processing huge NumPy arrays with memory mapping](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter04_optimization/09_memmap.ipynb)
+* [4.10. Manipulating large arrays with HDF5 and PyTables](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter04_optimization/10_hdf5_array.ipynb)
+* [4.11. Manipulating large heterogeneous tables with HDF5 and PyTables](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter04_optimization/11_hdf5_table.ipynb)
+
 
 ### More coming soon...
 

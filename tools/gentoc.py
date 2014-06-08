@@ -84,6 +84,7 @@ def write_toc(root, f=sys.stdout):
             f.write(chapter_toc)
             for recipe_toc in yield_recipe_toc(root, chapter):
                 f.write(recipe_toc)
+            f.write('\n\n')
 
 if __name__ == '__main__':
     write_toc(root, open('toc.md', 'w'))
