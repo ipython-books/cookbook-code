@@ -1,6 +1,6 @@
 # 4. Profiling and Optimization
 
-Full list of references of Chapter 4 of the [IPython Cookbook](http://ipython-books.github.io), the definitive guide to high-performance scientific computing and data science in Python, by Dr. Cyrille Rossant, Packt Publishing, 400 pages, 2014.
+Full list of references in Chapter 4 of the [IPython Cookbook](http://ipython-books.github.io), the definitive guide to high-performance scientific computing and data science in Python, by Dr. Cyrille Rossant, Packt Publishing, 400 pages, 2014.
 
 ## Profiling
 
