@@ -36,6 +36,7 @@
 * [Internals of NumPy in the SciPy lectures notes](http://scipy-lectures.github.io/advanced/advanced_numpy/).
 * [The complete list of NumPy routines is available on the NumPy Reference Guide](http://docs.scipy.org/doc/numpy/reference/).
 * [List of indexing routines](http://docs.scipy.org/doc/numpy/reference/routines.indexing.html).
+* [100 NumPy exercices](http://www.loria.fr/~rougier/teaching/numpy.100/index.html).
 
 
 ## Memory mapping
