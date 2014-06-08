@@ -10,8 +10,8 @@ This is work in progress: [stay tuned for the next updates](https://twitter.com/
 
 ### Chapter 2: Best practices in Interactive Computing
 
-* [2.7. Writing unit tests with nose (Python 2)](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter02_best_practices\07_unittests_py2.ipynb)
-* [2.7. Writing unit tests with nose (Python 3)](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter02_best_practices\07_unittests.ipynb)
+* [2.7. Writing unit tests with nose (Python 2)](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter02_best_practices/07_unittests_py2.ipynb)
+* [2.7. Writing unit tests with nose (Python 3)](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter02_best_practices/07_unittests.ipynb)
 
 ### The rest is coming soon...
 

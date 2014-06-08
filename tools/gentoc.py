@@ -1,6 +1,7 @@
 """Generate table of contents with links to nbviewer."""
 
 import re
+import urlparse
 import json
 import os
 import sys
@@ -67,7 +68,7 @@ def yield_recipe_toc(root, chapter):
     for recipe in iter_recipes(root, chapter):
         file = op.join(root, chapter, recipe)
         recipe_name = get_recipe_name(file)
-        url = op.join(urlbase, chapter, recipe)
+        url = urlparse.urljoin(urlbase, chapter + '/' + recipe)
         yield '* [{recipe_name}]({url})\n'.format(
             recipe_name=recipe_name,
             url=url,
