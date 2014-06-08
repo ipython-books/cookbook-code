@@ -14,7 +14,7 @@ This is work in progress: [stay tuned for the next updates](https://twitter.com/
 * [2.7. Writing unit tests with nose (Python 3)](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter02_best_practices/07_unittests.ipynb)
 * [Full list of references](https://github.com/ipython-books/cookbook-code/blob/master/references/chapter02-best-practices.md).
 
-### The rest is coming soon...
+### More coming soon...
 
 
 

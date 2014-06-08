@@ -37,12 +37,13 @@ Full list of references in Chapter 4 of the [IPython Cookbook](http://ipython-bo
 * [Internals of NumPy in the SciPy lectures notes](http://scipy-lectures.github.io/advanced/advanced_numpy/).
 * [The complete list of NumPy routines is available on the NumPy Reference Guide](http://docs.scipy.org/doc/numpy/reference/).
 * [List of indexing routines](http://docs.scipy.org/doc/numpy/reference/routines.indexing.html).
+* [NumPy Performance Tricks](http://cyrille.rossant.net/numpy-performance-tricks/).
 * [100 NumPy exercices](http://www.loria.fr/~rougier/teaching/numpy.100/index.html).
 
 
 ## Memory mapping
 
-* [Documentation of memmap](http://docs.scipy.org/doc/numpy/reference/generated/numpy.memmap.html).
+* [Documentation of `memmap`](http://docs.scipy.org/doc/numpy/reference/generated/numpy.memmap.html).
 
 
 ## Sparse matrices
@@ -58,7 +59,7 @@ Full list of references in Chapter 4 of the [IPython Cookbook](http://ipython-bo
 * [Partial list of HDF5 users](http://www.hdfgroup.org/users.html)
 * [HDF5 chunking](http://www.hdfgroup.org/HDF5/doc/Advanced/Chunking/).
 * [PyTables optimization guide, a must-read for PyTables users](http://pytables.github.io/usersguide/optimization.html).
-* [In-kernel queries](http://pytables.github.io/usersguide/condition_syntax.html).
+* [In-kernel queries in PyTables](http://pytables.github.io/usersguide/condition_syntax.html).
 * [An alternative to PyTables and HDF5 might come from the Blaze project, still in early development at the time of writing](http://blaze.pydata.org).
 * [Difference between PyTables and h5py, from the perspective of h5py](http://github.com/h5py/h5py/wiki/FAQ#whats-the-difference-between-h5py-and-pytables).
 * [Difference between PyTables and h5py, from the perspective of PyTables](http://www.pytables.org/moin/FAQ#HowdoesPyTablescomparewiththeh5pyproject.3F).

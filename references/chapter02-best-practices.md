@@ -92,8 +92,8 @@ Full list of references in Chapter 2 of the [IPython Cookbook](http://ipython-bo
 
 * [Markdown, a simple markup language](http://daringfireball.net/projects/markdown/).
 * [Sphinx](http://sphinx-doc.org).
-* [Figshare for storing binary data online](http://figshare.com).
-* [Datadryad for storing binary data online](http://datadryad).
+* [Figshare for storing binary research data online](http://figshare.com).
+* [Datadryad for storing binary research data online](http://datadryad.org).
 * [joblib, a must-have tool for interactive computing](http://pythonhosted.org/joblib/).
 * [ipycache, providing a `%%cache` magic in IPython](http://github.com/rossant/ipycache).
 * [AutoIt to automate GUI actions](http://www.autoitscript.com/site/autoit/).
