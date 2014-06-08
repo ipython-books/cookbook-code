@@ -1,5 +1,8 @@
-Copyright (c) 2014, Cyrille Rossant
-All rights reserved.
+The code is free and can be used for any purpose. 
+Packt Publishing and the author Dr. Cyrille Rossant can not be held liable for
+any use or result of the book's text or code.
+Further copyright & license info is found in the book's Copyright page.
+The book can be obtained on "http://ipython-books.github.io".
 
 Redistribution and use in source and binary forms, with or without modification, 
 are permitted provided that the following conditions are met:

@@ -1,9 +1,20 @@
 IPython Cookbook: the code
 ==========================
 
-This repository contains all the code of the [IPython Cookbook](https://ipython-books.github.io), the definitive guide to high-performance scientific computing and data science in Python (Cyrille Rossant, Packt Publishing).
+This repository contains the recipes of the [IPython Cookbook](https://ipython-books.github.io), the definitive guide to **high-performance scientific computing** and **data science** in Python (Cyrille Rossant, Packt Publishing, 400 pages, 2014). The book will be released later this summer!
 
-I will fill this repository progressively over the next few months, [follow me](https://twitter.com/cyrillerossant) for being kept informed!
+This is work in progress: [stay tuned for the next updates](https://twitter.com/cyrillerossant)!
+
+
+## Table of contents
+
+### Chapter 2: Best practices in Interactive Computing
+
+* [2.7. Writing unit tests with nose (Python 2)](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter02_best_practices\07_unittests_py2.ipynb)
+* [2.7. Writing unit tests with nose (Python 3)](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter02_best_practices\07_unittests.ipynb)
+
+### The rest is coming soon...
+
 
 
 ## Structure of the repository
@@ -12,34 +23,24 @@ The structure of the repo is the following:
 
 ```
 notebooks/                      all notebooks with the code of all examples
-    chapter-01-intro/           all notebooks of chapter 1
-        recipe-01-intro.ipynb
-        ...
-    chapter-02-practices/       all notebooks of chapter 2
+    chapter01_tour/             
+    chapter02_best_practices/   
     ...
-    extra/                      extra code example that did not make it in the book
+    extra/                      extra code example that didn't make it in the book
     guests/                     guest recipes
-featured/                       featured complete recipes with all text and code
-    01-featured-recipe.ipynb
-    ...
-references/
-    chapter-01-intro.md         contains a curated list of references
-    ...
-tools/                          contains various build scripts
-    build.py
-    ...
+featured/                       a selection of complete recipes with all text, figures and code
+references/                     a curated list of references about scientific Python programming
+tools/                          various building Python scripts
 ```
-
-All the code is in the `notebooks/` folder. A selection of recipes, called *featured recipes*, are in `featured/`. They contain entire recipes (text with the explanations, the code, the figures).
 
 
 ## Installation
 
-You need Python 2 or 3 and a bunch of scientific modules for the code examples. The most important modules you will need are: IPython 2+, NumPy, SciPy, Pandas, matplotlib. Many recipes that require other modules come with the appropriate installation instructions.
+You need Python 3 (or 2) and a bunch of scientific modules for the code examples, mainly IPython 2.0+, NumPy, SciPy, Pandas, and matplotlib. Many recipes that require other modules come with the appropriate installation instructions.
 
 We highly recommend that you use an all-in-one Python distribution like [Anaconda](http://continuum.io/downloads). This distribution comes with an excellent package manager named *conda*. It lets you install easily many modules on most platforms (Windows, Linux, Mac OS X), in 64-bit (recommended if you have a 64-bit OS) or 32-bit.
 
-Anaconda supports either Python 2 or Python 3. If you're not sure, pick Python 3.
+The recipes are written for Python 3 first, but they also work with Python 2. Please favor Python 3 over Python 2 if you can.
 
 
 ## Cloning the repository
@@ -66,6 +67,6 @@ In your browser, go to `127.0.0.1:8888`. You can navigate in the repository and 
 
 ## Contribute
 
-You are welcome to contribute to this repository. You can use the issue tracker to report any problem. You can also propose a pull request (PR) to fix an error, to add some information, or even add a brand new recipe in the `guest/` folder!
+You are welcome to contribute to this repository. You can use the issue tracker to report any problem. You can also propose a pull request (PR) to fix an error, to add some information, or even propose a brand new recipe in the `guests/` folder!
 
 
