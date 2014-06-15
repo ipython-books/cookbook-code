@@ -1,7 +1,7 @@
 IPython Cookbook
 ================
 
-This repository contains the recipes of the [IPython Cookbook](https://ipython-books.github.io), the definitive guide to **high-performance scientific computing** and **data science** in Python, by [Dr. Cyrille Rossant](http://cyrille.rossant.net), Packt Publishing, 400 pages, 2014. The book will be released later this summer.
+This repository contains the recipes of the [IPython Cookbook](http://ipython-books.github.io), the definitive guide to **high-performance scientific computing** and **data science** in Python, by [Dr. Cyrille Rossant](http://cyrille.rossant.net), Packt Publishing, 400 pages, 2014. The book will be released later this summer.
 
 This is work in progress: [stay tuned for the next updates](https://twitter.com/cyrillerossant)!
 
