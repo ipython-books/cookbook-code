@@ -7,6 +7,8 @@ import os
 import sys
 import os.path as op
 
+from util import get_recipe_number, get_recipe_name
+
 CHAPTER_NAMES = [
     'A Tour of Interactive Computing with IPython',
     'Best practices in Interactive Computing',
@@ -25,21 +27,6 @@ CHAPTER_NAMES = [
     'Symbolic and Numerical Mathematics',
 ]
 
-def get_recipe_number(file):
-    return int(file[:2])
-
-def get_recipe_name(file):
-    # Load notebook.
-    with open(file, 'r') as f:
-        contents = json.load(f)
-    cells = contents['worksheets'][0]['cells']
-    for cell in cells:
-        if cell.get('cell_type', None) == 'markdown':
-            source = cell.get('source', [])
-            for _ in source:
-                if _.startswith('# '):
-                    return _[2:].strip()
-      
 def get_chapter_number(dir):
     return int(op.basename(dir)[7:9])
       
