@@ -8,7 +8,7 @@ This is work in progress: [stay tuned for the next updates](https://twitter.com/
 
 ## Featured recipes
 
-* [Featured Recipe #1: Getting the Best Performance out of NumPy](http://http://ipython-books.github.io/featured-01.html)
+* [Featured Recipe #1: Getting the Best Performance out of NumPy](http://ipython-books.github.io/featured-01.html)
 
 
 ## Table of contents
