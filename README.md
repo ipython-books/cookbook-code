@@ -6,8 +6,12 @@ This repository contains the recipes of the [IPython Cookbook](http://ipython-bo
 This is work in progress: [stay tuned for the next updates](https://twitter.com/cyrillerossant)!
 
 
-## Table of contents
+## Featured recipes
 
+* [Featured Recipe #1: Getting the Best Performance out of NumPy](http://http://ipython-books.github.io/featured-01.html)
+
+
+## Table of contents
 
 ### Chapter 2: Best practices in Interactive Computing
 
