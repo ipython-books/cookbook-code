@@ -40,6 +40,14 @@ This is work in progress: [stay tuned for the next updates](https://twitter.com/
 
 
 
+## Errata
+
+You can report inaccuracies or errors in the issue tracker. Even better, propose your own corrections by submitting a pull request!
+
+* [Erratum #1](https://github.com/ipython-books/cookbook-code/pull/1) in [Featured Recipe 1](http://ipython-books.github.io/featured-01.html): *Correction about strides and copying*, by [Chris Beaumont](https://github.com/ChrisBeaumont).
+
+
+
 ## Structure of the repository
 
 The structure of the repo is the following:
