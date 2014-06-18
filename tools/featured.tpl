@@ -26,10 +26,10 @@
 
 <style type="text/css">
 /* Overrides of notebook CSS for static HTML export */
-body {
+/*body {
   overflow: visible;
   padding: 8px;
-}
+}*/
 
 div#notebook {
   overflow: visible;
