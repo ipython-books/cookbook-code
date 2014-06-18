@@ -13,14 +13,16 @@
 
 <title>IPython Cookbook %TITLE%</title>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css' />
+<link href="css/bootstrap.min.css" rel="stylesheet" />
+<link href="css/font-awesome.min.css" rel="stylesheet" />
 
-{% for css in resources.inlining.css -%}
-    <style type="text/css">
-    {{ css }}
-    </style>
-{% endfor %}
+
+<link href="css/highlight.css" rel="stylesheet" />
+<link href="css/style.css" rel="stylesheet" />
+<link href="css/main.css" rel="stylesheet" />
+<link href="css/featured.css" rel="stylesheet" />
+
 
 <style type="text/css">
 /* Overrides of notebook CSS for static HTML export */
@@ -50,11 +52,11 @@ div#notebook {
 }
 </style>
 
-<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css' />
-<link href="css/bootstrap.min.css" rel="stylesheet" />
-<link href="css/font-awesome.min.css" rel="stylesheet" />
-<link href="css/main.css" rel="stylesheet" />
-<link href="css/featured.css" rel="stylesheet" />
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 
 <!-- Loading mathjax macro -->
 {{ mathjax() }}
@@ -78,10 +80,7 @@ div#notebook {
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
   <![endif]-->
 </head>
-
 {%- endblock header -%}
-
-
 
 
 {% block body %}
