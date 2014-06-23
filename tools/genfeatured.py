@@ -32,6 +32,7 @@ NAVBAR = get_navbar()
 FOOTER = get_footer()
     
 def transform_featured(notebook_filename):
+    notebook_filename = op.basename(notebook_filename)
     number = int(notebook_filename[:2])
     notebook_basename = op.basename(notebook_filename)
     input_path = op.realpath(op.join(featured_dir, notebook_filename))
@@ -58,6 +59,9 @@ def transform_featured(notebook_filename):
     with open(output_path, 'w') as f:
         f.write(contents)
     
+def main():
+    transform_featured(sys.argv[1])
+    
 if __name__ == '__main__':
-    transform_featured('01_numpy_performance.ipynb')
+    main()
     
