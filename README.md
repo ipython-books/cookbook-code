@@ -36,6 +36,15 @@ This is work in progress: [stay tuned for the next updates](https://twitter.com/
 * [Full list of references](https://github.com/ipython-books/cookbook-code/blob/master/references/chapter04-optimization.md).
 
 
+### Chapter 9: Numerical Optimization
+
+* [9.1. Finding the root of a mathematical function](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter09_numoptim/01_root.ipynb)
+* [9.2. Minimizing a mathematical function](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter09_numoptim/02_minimize.ipynb)
+* [9.3. Fitting a function to data with non-linear least squares](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter09_numoptim/03_curvefitting.ipynb)
+* [9.4. Finding the equilibrium state of a physical system by minimizing its potential energy](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter09_numoptim/04_energy.ipynb)
+
+
+
 ### More coming soon...
 
 
