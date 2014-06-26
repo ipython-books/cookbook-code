@@ -13,6 +13,7 @@ Full list of references in Chapter 2 of the [IPython Cookbook](http://ipython-bo
 * [Python 3 questions and answers, by Nick Coghlan](http://python-notes.curiousefficiency.org/en/latest/python3/questions_and_answers.html).
 * [*"Ten awesome features of Python that you can't use because you refuse to upgrade to Python 3"*, a presentation by Aaron Meurer](http://asmeurer.github.io/python3-presentation/slides.html).
 * [Using the `__future__` module when writing compatibility code](http://docs.python.org/2/library/__future__.html).
+* [Key differences between Python 2 and Python 3](http://sebastianraschka.com/Articles/2014_python_2_3_key_diff.html).
 
 
 ## Integrated Development Environments for Python
