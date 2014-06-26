@@ -16,9 +16,16 @@ This is work in progress: [stay tuned for the next updates](https://twitter.com/
 
 ### Chapter 2: Best practices in Interactive Computing
 
+* 2.1. Choosing between Python 2 and Python 3 (or not)
+* 2.2. Efficient interactive computing workflows with IPython
+* 2.3. Learning the basics of the distributed version control system Git
+* 2.4. A typical workflow with Git branching
+* 2.5. Ten tips for conducting reproducible interactive computing experiments
+* 2.6. Writing high-quality Python code
 * [2.7. Writing unit tests with nose (Python 2)](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter02_best_practices/07_unittests_py2.ipynb)
 * [2.7. Writing unit tests with nose (Python 3)](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter02_best_practices/07_unittests.ipynb)
-* [Full list of references](https://github.com/ipython-books/cookbook-code/blob/master/references/chapter02-best-practices.md).
+* 2.8. Debugging your code with IPython
+* [Full list of references](https://github.com/ipython-books/cookbook-code/blob/master/references/chapter02_best_practices.md).
 
 
 ### Chapter 4: Profiling and Optimization
@@ -34,7 +41,7 @@ This is work in progress: [stay tuned for the next updates](https://twitter.com/
 * [4.9. Processing huge NumPy arrays with memory mapping](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter04_optimization/09_memmap.ipynb)
 * [4.10. Manipulating large arrays with HDF5 and PyTables](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter04_optimization/10_hdf5_array.ipynb)
 * [4.11. Manipulating large heterogeneous tables with HDF5 and PyTables](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter04_optimization/11_hdf5_table.ipynb)
-* [Full list of references](https://github.com/ipython-books/cookbook-code/blob/master/references/chapter04-optimization.md).
+* [Full list of references](https://github.com/ipython-books/cookbook-code/blob/master/references/chapter04_optimization.md).
 
 
 ### Chapter 9: Numerical Optimization
@@ -43,8 +50,20 @@ This is work in progress: [stay tuned for the next updates](https://twitter.com/
 * [9.2. Minimizing a mathematical function](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter09_numoptim/02_minimize.ipynb)
 * [9.3. Fitting a function to data with non-linear least squares](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter09_numoptim/03_curvefitting.ipynb)
 * [9.4. Finding the equilibrium state of a physical system by minimizing its potential energy](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter09_numoptim/04_energy.ipynb)
-* [Full list of references](https://github.com/ipython-books/cookbook-code/blob/master/references/chapter09-numopt.md).
+* [Full list of references](https://github.com/ipython-books/cookbook-code/blob/master/references/chapter09_numopt.md).
 
+
+### Chapter 15: Symbolic and Numerical Mathematics
+
+* [15.1. Introduction to SymPy](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter15_symbolic/01_sympy_intro.ipynb)
+* [15.2. Solving equations with SymPy](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter15_symbolic/02_solvers.ipynb)
+* [15.3. Analyzing real-valued functions with SymPy](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter15_symbolic/03_function.ipynb)
+* [15.4. Exact probability and statistics](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter15_symbolic/04_stats.ipynb)
+* [15.5. A bit of number theory with SymPy](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter15_symbolic/05_number_theory.ipynb)
+* [15.6. Find a Boolean propositional formula from a truth table](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter15_symbolic/06_logic.ipynb)
+* [15.7. Analyzing a nonlinear differential system: Lotka-Volterra (predator-prey) equations](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter15_symbolic/07_lotka.ipynb)
+* 15.8. Getting started with Sage
+* [Full list of references](https://github.com/ipython-books/cookbook-code/blob/master/references/chapter15_symbolic.md).
 
 
 ### More coming soon...
