@@ -52,6 +52,14 @@ This is work in progress: [stay tuned for the next updates](https://twitter.com/
 * [Full list of references](https://github.com/ipython-books/cookbook-code/blob/master/references/chapter09_numopt.md)
 
 
+### Chapter 10: Signal Processing
+
+* [10.1. Analyzing the frequency components of a signal with a Fast Fourier Transform](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter10_signal/01_fourier.ipynb)
+* [10.2. Applying a linear filter to a digital signal](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter10_signal/02_filter.ipynb)
+* [10.3. Computing the autocorrelation of a time series](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter10_signal/03_autocorrelation.ipynb)
+* [Full list of references](https://github.com/ipython-books/cookbook-code/blob/master/references/chapter10_signal.md)
+
+
 ### Chapter 15: Symbolic and Numerical Mathematics
 
 * [15.1. Introduction to SymPy](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter15_symbolic/01_sympy_intro.ipynb)
