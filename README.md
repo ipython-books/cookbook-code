@@ -43,6 +43,16 @@ This is work in progress: [stay tuned for the next updates](https://twitter.com/
 * [Full list of references](https://github.com/ipython-books/cookbook-code/blob/master/references/chapter04_optimization.md)
 
 
+### Chapter 6: Advanced Visualization
+
+* [6.1. Making nicer matplotlib figures with prettyplotlib](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter06_viz/01_prettyplotlib.ipynb)
+* [6.2. Creating beautiful statistical plots easily with seaborn](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter06_viz/02_seaborn.ipynb)
+* [6.3. Creating interactive Web visualizations with Bokeh](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter06_viz/03_bokeh.ipynb)
+* [6.4. Visualizing a NetworkX graph in the IPython notebook with d3.js](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter06_viz/04_d3.ipynb)
+* [6.5. Converting matplotlib figures to d3.js visualizations with mpld3](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter06_viz/05_mpld3.ipynb)
+* [Full list of references](https://github.com/ipython-books/cookbook-code/blob/master/references/chapter06_viz.md)
+
+
 ### Chapter 9: Numerical Optimization
 
 * [9.1. Finding the root of a mathematical function](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter09_numoptim/01_root.ipynb)
