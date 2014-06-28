@@ -75,10 +75,10 @@ Full list of references in Chapter 7 of the [IPython Cookbook](http://ipython-bo
 
 * [The IPython R magic](http://ipython.org/ipython-doc/dev/config/extensions/rmagic.html).
 * [Rpy2](http://rpy.sourceforge.net/rpy2.html).
-* [Official introduction to R (http://cran.r-project.org/doc/manuals/R-intro.html).
-* [R tutorial (http://www.cyclismo.org/tutorial/R/).
-* [CRAN: Comprehensive R Archive Network, containing many packages for R (http://cran.r-project.org).
-* [IPython and R tutorial (http://nbviewer.ipython.org/github/ipython/ipython/blob/master/examples/notebooks/R%20Magics.ipynb).
+* [Official introduction to R](http://cran.r-project.org/doc/manuals/R-intro.html).
+* [R tutorial](http://www.cyclismo.org/tutorial/R/).
+* [CRAN: Comprehensive R Archive Network, containing many packages for R](http://cran.r-project.org).
+* [IPython and R tutorial](http://nbviewer.ipython.org/github/ipython/ipython/blob/master/examples/notebooks/R%20Magics.ipynb).
 
 
 
