@@ -59,26 +59,26 @@ Full list of references in Chapter 7 of the [IPython Cookbook](http://ipython-bo
 ## Bayesian programming
 
 * [PyMC model fitting](http://pymc-devs.github.io/pymc/modelfitting.html).
-* A great PyMC tutorial which we largely took inspiration from (http://pymc-devs.github.io/pymc/tutorial.html).
-* A must-read free ebook on the subject, by Cameron Davidson-Pilon, entirely written in the IPython notebook! (http://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/).
-* The Monte-Carlo Markov Chain method (http://en.wikipedia.org/wiki/Markov_chain_Monte_Carlo).
-* The Metropolis-Hastings algorithm (http://en.wikipedia.org/wiki/Metropolis-Hastings_algorithm).
+* [A great PyMC tutorial which we largely took inspiration from](http://pymc-devs.github.io/pymc/tutorial.html).
+* [A must-read free ebook on the subject, by Cameron Davidson-Pilon, entirely written in the IPython notebook!](http://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/).
+* [The Monte-Carlo Markov Chain method](http://en.wikipedia.org/wiki/Markov_chain_Monte_Carlo).
+* [The Metropolis-Hastings algorithm](http://en.wikipedia.org/wiki/Metropolis-Hastings_algorithm).
 
 
 ## Linear regression
 
-* Regression analysis (http://en.wikipedia.org/wiki/Regression_analysis).
-* Least squares method (http://en.wikipedia.org/wiki/Linear_least_squares_(mathematics)).
+* [Regression analysis](http://en.wikipedia.org/wiki/Regression_analysis).
+* [Least squares method](http://en.wikipedia.org/wiki/Linear_least_squares_(mathematics)).
 
 
 ## R
 
 * [The IPython R magic](http://ipython.org/ipython-doc/dev/config/extensions/rmagic.html).
 * [Rpy2](http://rpy.sourceforge.net/rpy2.html).
-* Official introduction to R (http://cran.r-project.org/doc/manuals/R-intro.html).
-* R tutorial (http://www.cyclismo.org/tutorial/R/).
-* CRAN: Comprehensive R Archive Network, containing many packages for R (http://cran.r-project.org).
-* IPython and R tutorial (http://nbviewer.ipython.org/github/ipython/ipython/blob/master/examples/notebooks/R%20Magics.ipynb).
+* [Official introduction to R (http://cran.r-project.org/doc/manuals/R-intro.html).
+* [R tutorial (http://www.cyclismo.org/tutorial/R/).
+* [CRAN: Comprehensive R Archive Network, containing many packages for R (http://cran.r-project.org).
+* [IPython and R tutorial (http://nbviewer.ipython.org/github/ipython/ipython/blob/master/examples/notebooks/R%20Magics.ipynb).
 
 
 
