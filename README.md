@@ -53,6 +53,19 @@ This is work in progress: [stay tuned for the next updates](https://twitter.com/
 * [Full list of references](https://github.com/ipython-books/cookbook-code/blob/master/references/chapter06_viz.md)
 
 
+### Chapter 7: Statistical Data Analysis
+
+* [7.1. Explore a dataset with Pandas and matplotlib](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter07_stats/01_pandas.ipynb)
+* [7.2. Getting started with statistical hypothesis testing: a simple z-test](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter07_stats/02_z_test.ipynb)
+* [7.3. Getting started with Bayesian methods](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter07_stats/03_bayesian.ipynb)
+* [7.4. Estimating the correlation between two variables with a contingency table and a chi-square test](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter07_stats/04_correlation.ipynb)
+* [7.5. Fitting a probability distribution to data with the maximum likelihood method](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter07_stats/05_mlfit.ipynb)
+* [7.6. Estimating a probability distribution non-parametrically with a Kernel Density Estimation](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter07_stats/06_kde.ipynb)
+* [7.7. Fitting a Bayesian model by sampling from a posterior distribution with a Markov Chain Monte Carlo method](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter07_stats/07_pymc.ipynb)
+* [7.8. Analyzing data with R in the IPython notebook](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter07_stats/08_r.ipynb)
+* [Full list of references](https://github.com/ipython-books/cookbook-code/blob/master/references/chapter07_stats.md)
+
+
 ### Chapter 9: Numerical Optimization
 
 * [9.1. Finding the root of a mathematical function](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter09_numoptim/01_root.ipynb)
