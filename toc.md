@@ -37,10 +37,10 @@
 
 ### Chapter 3: Master the Notebook
 
-* 3.1. Teach programming in the notebook with IPython blocks
-* 3.2. Convert an IPython notebook to another format
-* 3.3. Add custom controls in the notebook toolbar
-* 3.4. Customize CSS in the notebook
+* 3.1. Teaching programming in the notebook with IPython blocks
+* 3.2. Converting an IPython notebook to another format
+* 3.3. Adding custom controls in the notebook toolbar
+* 3.4. Customizing CSS in the notebook
 * 3.5. Creating basic widgets in the notebook: a piano in the notebook
 * 3.6. Creating a custom Javascript widget in the notebook: an Excel-like data grid editor for Pandas
 * 3.7. Processing webcam images in real-time from the notebook
@@ -64,16 +64,16 @@
 
 ### Chapter 5: High-Performance Computing
 
-* 5.1. Accelerate pure Python code with Numba and just-in-time compilation
-* 5.2. Accelerate array computations with Numexpr
-* 5.3. Access C/C++ libraries from Python with ctypes
-* 5.4. Accelerate Python code with Cython
-* 5.5. Optimize Cython code by writing less Python and more C
-* 5.6. Release the GIL in your Cython code and take advantage of multi-core processors with OpenMP 
-* 5.7. Parallelize your code on NVIDIA graphics cards (GPUs) with CUDA
-* 5.8. Parallelize your code on heterogeneous platforms with OpenCL
-* 5.9. Distribute your code across multiple cores with IPython
-* 5.10. Parallelize your code with MPI in IPython
+* 5.1. Accelerating pure Python code with Numba and just-in-time compilation
+* 5.2. Accelerating array computations with Numexpr
+* 5.3. Accessing C/C++ libraries from Python with ctypes
+* 5.4. Accelerating Python code with Cython
+* 5.5. Optimizing Cython code by writing less Python and more C
+* 5.6. Releasing the GIL in your Cython code and take advantage of multi-core processors with OpenMP 
+* 5.7. Parallelizing your code on NVIDIA graphics cards (GPUs) with CUDA
+* 5.8. Parallelizing your code on heterogeneous platforms with OpenCL
+* 5.9. Distributing your code across multiple cores with IPython
+* 5.10. Parallelizing your code with MPI in IPython
 * More recipes coming soon in this chapter
 
 
@@ -90,7 +90,7 @@
 
 ### Chapter 7: Statistical Data Analysis
 
-* [7.1. Explore a dataset with Pandas and matplotlib](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter07_stats/01_pandas.ipynb)
+* [7.1. Exploring a dataset with Pandas and matplotlib](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter07_stats/01_pandas.ipynb)
 * [7.2. Getting started with statistical hypothesis testing: a simple z-test](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter07_stats/02_z_test.ipynb)
 * [7.3. Getting started with Bayesian methods](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter07_stats/03_bayesian.ipynb)
 * [7.4. Estimating the correlation between two variables with a contingency table and a chi-square test](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter07_stats/04_correlation.ipynb)
@@ -103,13 +103,13 @@
 
 ### Chapter 8: Machine Learning
 
-* 8.1. Get started with scikit-learn
-* 8.2. Predict who will survive on the Titanic
-* 8.3. Learn to recognize handwritten digits
-* 8.4. Learn from text
-* 8.5. Use Support Vector Machines for regression and classification
-* 8.6. Reduce the dimensionality of your data with PCA
-* 8.7. Detect hidden structures in your dataset with clustering
+* 8.1. Getting started with scikit-learn
+* 8.2. Predicting who will survive on the Titanic
+* 8.3. Learning to recognize handwritten digits
+* 8.4. Learning from text
+* 8.5. Using Support Vector Machines for regression and classification
+* 8.6. Reducing the dimensionality of your data with PCA
+* 8.7. Detecting hidden structures in your dataset with clustering
 * More recipes coming soon in this chapter
 
 
@@ -133,41 +133,41 @@
 
 ### Chapter 11: Image and Audio Processing
 
-* 11.1. Manipulate the exposure of an image
-* 11.2. Apply filters on an image
-* 11.3. Segment an image
-* 11.4. Find points of interest in an image
-* 11.5. Detect faces in an image with OpenCV
-* 11.6. Apply digital filters to speech sounds
-* 11.7. Create a sound synthesizer in the notebook
+* 11.1. Manipulating the exposure of an image
+* 11.2. Applying filters on an image
+* 11.3. Segmenting an image
+* 11.4. Finding points of interest in an image
+* 11.5. Detecting faces in an image with OpenCV
+* 11.6. Applying digital filters to speech sounds
+* 11.7. Creating a sound synthesizer in the notebook
 * More recipes coming soon in this chapter
 
 
 ### Chapter 12: Deterministic Dynamical Systems
 
-* 12.1. Plot the bifurcation diagram of a chaotic dynamical system
-* 12.2. Simulate an elementary cellular automaton
-* 12.3. Simulate an Ordinary Differential Equation with Scipy
-* 12.4. Simulate a partial differential equation: reaction-diffusion systems and Turing patterns
+* 12.1. Plotting the bifurcation diagram of a chaotic dynamical system
+* 12.2. Simulating an elementary cellular automaton
+* 12.3. Simulating an Ordinary Differential Equation with Scipy
+* 12.4. Simulating a partial differential equation: reaction-diffusion systems and Turing patterns
 
 
 ### Chapter 13: Stochastic Dynamical Systems
 
-* 13.1. Simulate a discrete-time Markov chain
-* 13.2. Simulate a Poisson process
-* 13.3. Simulate a Brownian motion
-* 13.4. Simulate a stochastic differential equation
+* 13.1. Simulating a discrete-time Markov chain
+* 13.2. Simulating a Poisson process
+* 13.3. Simulating a Brownian motion
+* 13.4. Simulating a stochastic differential equation
 
 
 ### Chapter 14: Graphs, Geometry and Geographic Information Systems
 
-* 14.1. Manipulate and visualize graphs with NetworkX
-* 14.2. Analyze a social network with NetworkX
-* 14.3. Resolve dependencies in a Directed Acyclic Graph with a topological sort
-* 14.4. Compute connected components in an image
-* 14.5. Compute the Voronoi diagram of a set of points
-* 14.6. Manipulate geospatial data with Shapely and Basemap
-* 14.7. Create a route planner for road network
+* 14.1. Manipulating and visualize graphs with NetworkX
+* 14.2. Analyzing a social network with NetworkX
+* 14.3. Resolving dependencies in a Directed Acyclic Graph with a topological sort
+* 14.4. Computing connected components in an image
+* 14.5. Computing the Voronoi diagram of a set of points
+* 14.6. Manipulating geospatial data with Shapely and Basemap
+* 14.7. Creating a route planner for road network
 
 
 ### Chapter 15: Symbolic and Numerical Mathematics
