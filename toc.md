@@ -1,0 +1,184 @@
+# IPython Cookbook: the Table of Contents
+
+* [A one-stop guide for **high-performance scientific computing** and **data science** in Python](http://ipython-books.github.io/).
+* All the code will be available as IPython notebooks (more and more notebooks will be added until the release this summer).
+
+## Overview
+
+* **100+ hands-on, ready-to-use, highly focused recipes** with diverse real-world examples and clear, detailed step-by-step explanations.
+* **15 chapters**
+    * **Part 1 (chapters 1-6): Advanced High-Performance Interactive Computing**. For those who want to sharpen their scientific Python programming skills.
+    * **Part 2 (chapters 7-15): Standard Methods in Data Science and Applied Mathematics**. Introduction to a wide range of methods in data science and applied mathematics. This part offers you tens of *tutorials* in various topics, but doesn't contain a comprehensive treatment of all covered subjects.
+    
+    
+## Full Table of Contents
+
+### Chapter 1: A Tour of Interactive Computing with IPython
+
+* 1.1. Introducing the IPython notebook
+* 1.2. Getting started with data exploratory analysis in IPython
+* 1.3. Introducing the multidimensional array in NumPy for fast array computations
+* 1.4. Creating an IPython extension with your own magic commands
+* More recipes coming soon in this chapter
+
+
+### Chapter 2: Best practices in Interactive Computing
+
+* 2.1. Choosing between Python 2 and Python 3 (or not)
+* 2.2. Efficient interactive computing workflows with IPython
+* 2.3. Learning the basics of the distributed version control system Git
+* 2.4. A typical workflow with Git branching
+* 2.5. Ten tips for conducting reproducible interactive computing experiments
+* 2.6. Writing high-quality Python code
+* 2.7. Writing unit tests with nose ([Python 2](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter02_best_practices/07_unittests_py2.ipynb) or [Python 3](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter02_best_practices/07_unittests.ipynb))
+* 2.8. Debugging your code with IPython
+* [Full list of references](https://github.com/ipython-books/cookbook-code/blob/master/references/chapter02_best_practices.md)
+
+
+### Chapter 3: Master the Notebook
+
+* 3.1. Teach programming in the notebook with IPython blocks
+* 3.2. Convert an IPython notebook to another format
+* 3.3. Add custom controls in the notebook toolbar
+* 3.4. Customize CSS in the notebook
+* 3.5. Creating basic widgets in the notebook: a piano in the notebook
+* 3.6. Creating a custom Javascript widget in the notebook: an Excel-like data grid editor for Pandas
+* 3.7. Processing webcam images in real-time from the notebook
+
+
+### Chapter 4: Profiling and Optimization
+
+* [4.1. Evaluating the time taken by a command in IPython](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter04_optimization/01_timeit.ipynb)
+* [4.2. Evaluating the time taken by a command in IPython](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter04_optimization/02_profile.ipynb)
+* [4.3. Profiling your code line by line with line_profiler](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter04_optimization/03_linebyline.ipynb)
+* [4.4. Profiling the memory usage of your code with memory_profiler](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter04_optimization/04_memprof.ipynb)
+* [4.5. Understanding the internals of NumPy to avoid unnecessary array copy](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter04_optimization/05_array_copies.ipynb)
+* [4.6. Using stride tricks with NumPy](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter04_optimization/06_stride_tricks.ipynb)
+* [4.7. Implementing an efficient rolling average algorithm with stride tricks](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter04_optimization/07_rolling_average.ipynb)
+* [4.8. Making efficient selections in arrays with NumPy](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter04_optimization/08_efficient_selections.ipynb)
+* [4.9. Processing huge NumPy arrays with memory mapping](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter04_optimization/09_memmap.ipynb)
+* [4.10. Manipulating large arrays with HDF5 and PyTables](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter04_optimization/10_hdf5_array.ipynb)
+* [4.11. Manipulating large heterogeneous tables with HDF5 and PyTables](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter04_optimization/11_hdf5_table.ipynb)
+* [Full list of references](https://github.com/ipython-books/cookbook-code/blob/master/references/chapter04_optimization.md)
+
+
+### Chapter 5: High-Performance Computing
+
+* 5.1. Accelerate pure Python code with Numba and just-in-time compilation
+* 5.2. Accelerate array computations with Numexpr
+* 5.3. Access C/C++ libraries from Python with ctypes
+* 5.4. Accelerate Python code with Cython
+* 5.5. Optimize Cython code by writing less Python and more C
+* 5.6. Release the GIL in your Cython code and take advantage of multi-core processors with OpenMP 
+* 5.7. Parallelize your code on NVIDIA graphics cards (GPUs) with CUDA
+* 5.8. Parallelize your code on heterogeneous platforms with OpenCL
+* 5.9. Distribute your code across multiple cores with IPython
+* 5.10. Parallelize your code with MPI in IPython
+* More recipes coming soon in this chapter
+
+
+### Chapter 6: Advanced Visualization
+
+* [6.1. Making nicer matplotlib figures with prettyplotlib](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter06_viz/01_prettyplotlib.ipynb)
+* [6.2. Creating beautiful statistical plots easily with seaborn](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter06_viz/02_seaborn.ipynb)
+* [6.3. Creating interactive Web visualizations with Bokeh](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter06_viz/03_bokeh.ipynb)
+* [6.4. Visualizing a NetworkX graph in the IPython notebook with d3.js](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter06_viz/04_d3.ipynb)
+* [6.5. Converting matplotlib figures to d3.js visualizations with mpld3](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter06_viz/05_mpld3.ipynb)
+* More recipes coming soon in this chapter
+* [Full list of references](https://github.com/ipython-books/cookbook-code/blob/master/references/chapter06_viz.md)
+
+
+### Chapter 7: Statistical Data Analysis
+
+* [7.1. Explore a dataset with Pandas and matplotlib](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter07_stats/01_pandas.ipynb)
+* [7.2. Getting started with statistical hypothesis testing: a simple z-test](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter07_stats/02_z_test.ipynb)
+* [7.3. Getting started with Bayesian methods](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter07_stats/03_bayesian.ipynb)
+* [7.4. Estimating the correlation between two variables with a contingency table and a chi-square test](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter07_stats/04_correlation.ipynb)
+* [7.5. Fitting a probability distribution to data with the maximum likelihood method](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter07_stats/05_mlfit.ipynb)
+* [7.6. Estimating a probability distribution non-parametrically with a Kernel Density Estimation](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter07_stats/06_kde.ipynb)
+* [7.7. Fitting a Bayesian model by sampling from a posterior distribution with a Markov Chain Monte Carlo method](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter07_stats/07_pymc.ipynb)
+* [7.8. Analyzing data with R in the IPython notebook](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter07_stats/08_r.ipynb)
+* [Full list of references](https://github.com/ipython-books/cookbook-code/blob/master/references/chapter07_stats.md)
+
+
+### Chapter 8: Machine Learning
+
+* 8.1. Get started with scikit-learn
+* 8.2. Predict who will survive on the Titanic
+* 8.3. Learn to recognize handwritten digits
+* 8.4. Learn from text
+* 8.5. Use Support Vector Machines for regression and classification
+* 8.6. Reduce the dimensionality of your data with PCA
+* 8.7. Detect hidden structures in your dataset with clustering
+* More recipes coming soon in this chapter
+
+
+### Chapter 9: Numerical Optimization
+
+* [9.1. Finding the root of a mathematical function](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter09_numoptim/01_root.ipynb)
+* [9.2. Minimizing a mathematical function](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter09_numoptim/02_minimize.ipynb)
+* [9.3. Fitting a function to data with non-linear least squares](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter09_numoptim/03_curvefitting.ipynb)
+* [9.4. Finding the equilibrium state of a physical system by minimizing its potential energy](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter09_numoptim/04_energy.ipynb)
+* [Full list of references](https://github.com/ipython-books/cookbook-code/blob/master/references/chapter09_numopt.md)
+
+
+### Chapter 10: Signal Processing
+
+* [10.1. Analyzing the frequency components of a signal with a Fast Fourier Transform](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter10_signal/01_fourier.ipynb)
+* [10.2. Applying a linear filter to a digital signal](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter10_signal/02_filter.ipynb)
+* [10.3. Computing the autocorrelation of a time series](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter10_signal/03_autocorrelation.ipynb)
+* More recipes coming soon in this chapter
+* [Full list of references](https://github.com/ipython-books/cookbook-code/blob/master/references/chapter10_signal.md)
+
+
+### Chapter 11: Image and Audio Processing
+
+* 11.1. Manipulate the exposure of an image
+* 11.2. Apply filters on an image
+* 11.3. Segment an image
+* 11.4. Find points of interest in an image
+* 11.5. Detect faces in an image with OpenCV
+* 11.6. Apply digital filters to speech sounds
+* 11.7. Create a sound synthesizer in the notebook
+* More recipes coming soon in this chapter
+
+
+### Chapter 12: Deterministic Dynamical Systems
+
+* 12.1. Plot the bifurcation diagram of a chaotic dynamical system
+* 12.2. Simulate an elementary cellular automaton
+* 12.3. Simulate an Ordinary Differential Equation with Scipy
+* 12.4. Simulate a partial differential equation: reaction-diffusion systems and Turing patterns
+
+
+### Chapter 13: Stochastic Dynamical Systems
+
+* 13.1. Simulate a discrete-time Markov chain
+* 13.2. Simulate a Poisson process
+* 13.3. Simulate a Brownian motion
+* 13.4. Simulate a stochastic differential equation
+
+
+### Chapter 14: Graphs, Geometry and Geographic Information Systems
+
+* 14.1. Manipulate and visualize graphs with NetworkX
+* 14.2. Analyze a social network with NetworkX
+* 14.3. Resolve dependencies in a Directed Acyclic Graph with a topological sort
+* 14.4. Compute connected components in an image
+* 14.5. Compute the Voronoi diagram of a set of points
+* 14.6. Manipulate geospatial data with Shapely and Basemap
+* 14.7. Create a route planner for road network
+
+
+### Chapter 15: Symbolic and Numerical Mathematics
+
+* [15.1. Introduction to SymPy](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter15_symbolic/01_sympy_intro.ipynb)
+* [15.2. Solving equations with SymPy](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter15_symbolic/02_solvers.ipynb)
+* [15.3. Analyzing real-valued functions with SymPy](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter15_symbolic/03_function.ipynb)
+* [15.4. Exact probability and statistics](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter15_symbolic/04_stats.ipynb)
+* [15.5. A bit of number theory with SymPy](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter15_symbolic/05_number_theory.ipynb)
+* [15.6. Find a Boolean propositional formula from a truth table](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter15_symbolic/06_logic.ipynb)
+* [15.7. Analyzing a nonlinear differential system: Lotka-Volterra (predator-prey) equations](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter15_symbolic/07_lotka.ipynb)
+* 15.8. Getting started with Sage
+* [Full list of references](https://github.com/ipython-books/cookbook-code/blob/master/references/chapter15_symbolic.md)
+
