@@ -15,11 +15,12 @@
 
 ### Chapter 1: A Tour of Interactive Computing with IPython
 
-* 1.1. Introducing the IPython notebook
-* 1.2. Getting started with data exploratory analysis in IPython
-* 1.3. Introducing the multidimensional array in NumPy for fast array computations
-* 1.4. Creating an IPython extension with your own magic commands
+* [1.1. Introducing the IPython notebook](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter01_basic/01_notebook.ipynb)
+* [1.2. Getting started with exploratory data analysis in IPython](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter01_basic/02_pandas.ipynb)
+* [1.3. Introducing the multidimensional array in NumPy for fast array computations](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter01_basic/03_numpy.ipynb)
+* [1.4. Creating an IPython extension with your own magic commands](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter01_basic/04_magic.ipynb)
 * More recipes coming soon in this chapter
+* [Full list of references](https://github.com/ipython-books/cookbook-code/blob/master/references/chapter01_intro.md)
 
 
 ### Chapter 2: Best practices in Interactive Computing
@@ -64,18 +65,23 @@
 
 
 ### Chapter 5: High-Performance Computing
-
-* 5.1. Accelerating pure Python code with Numba and just-in-time compilation
-* 5.2. Accelerating array computations with Numexpr
-* 5.3. Accessing C/C++ libraries from Python with ctypes
-* 5.4. Accelerating Python code with Cython
-* 5.5. Optimizing Cython code by writing less Python and more C
-* 5.6. Releasing the GIL in your Cython code and take advantage of multi-core processors with OpenMP 
-* 5.7. Parallelizing your code on NVIDIA graphics cards (GPUs) with CUDA
-* 5.8. Parallelizing your code on heterogeneous platforms with OpenCL
-* 5.9. Distributing your code across multiple cores with IPython
-* 5.10. Parallelizing your code with MPI in IPython
+* [5.1. Accelerating pure Python code with Numba and just-in-time compilation](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter05_hpc/01_numba.ipynb)
+* [5.2. Accelerating array computations with Numexpr](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter05_hpc/02_numexpr.ipynb)
+* [5.3. Accessing C/C++ libraries from Python with ctypes](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter05_hpc/03_ctypes.ipynb)
+* [5.4. Accelerating Python code with Cython](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter05_hpc/04_cython.ipynb)
+* 5.5. Accelerating Python code with Cython: a ray tracing engine
+    * [Pure Python](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter05_hpc/05_ray_1.ipynb)
+    * [Naive Cython](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter05_hpc/05_ray_2.ipynb)
+    * [Cython with array buffers](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter05_hpc/05_ray_3.ipynb)
+    * [Cython with tuples](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter05_hpc/05_ray_4.ipynb)
+    * [Cython with structs](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter05_hpc/05_ray_5.ipynb)
+* [5.6. Ray tracing: Cython with OpenMP](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter05_hpc/06_openmp.ipynb)
+* [5.7. Mandelbrot in CUDA](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter05_hpc/07_cuda.ipynb)
+* [5.8. Mandelbrot in OpenCL](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter05_hpc/08_opencl.ipynb)
+* [5.9. Parallel computing with IPython](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter05_hpc/09_ipyparallel.ipynb)
 * More recipes coming soon in this chapter
+* [Full list of references](https://github.com/ipython-books/cookbook-code/blob/master/references/chapter05_hpc.md)
+
 
 
 ### Chapter 6: Advanced Visualization
@@ -104,14 +110,17 @@
 
 ### Chapter 8: Machine Learning
 
-* 8.1. Getting started with scikit-learn
-* 8.2. Predicting who will survive on the Titanic
-* 8.3. Learning to recognize handwritten digits
-* 8.4. Learning from text
-* 8.5. Using Support Vector Machines for regression and classification
-* 8.6. Reducing the dimensionality of your data with PCA
-* 8.7. Detecting hidden structures in your dataset with clustering
+
+* [8.1. Getting started with scikit-learn](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter08_ml/01_scikit.ipynb)
+* [8.2. Predicting who will survive on the Titanic with logistic regression](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter08_ml/02_titanic.ipynb)
+* [8.3. Learning to recognize handwritten digits with a K-nearest neighbors classifier](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter08_ml/03_digits.ipynb)
+* [8.4. Natural Language Processing: Learning From Text](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter08_ml/04_text.ipynb)
+* [8.5. Using Support Vector Machines for classification tasks](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter08_ml/05_svm.ipynb)
+* [8.6. Reducing the dimensionality of your data with Principal Component Analysis](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter08_ml/06_pca.ipynb)
+* [8.7. Detecting hidden structures in your dataset with clustering](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter08_ml/07_clustering.ipynb)
 * More recipes coming soon in this chapter
+* [Full list of references](https://github.com/ipython-books/cookbook-code/blob/master/references/chapter08_ml.md)
+
 
 
 ### Chapter 9: Numerical Optimization
