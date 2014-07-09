@@ -153,10 +153,12 @@
 
 ### Chapter 13: Stochastic Dynamical Systems
 
-* 13.1. Simulating a discrete-time Markov chain
-* 13.2. Simulating a Poisson process
-* 13.3. Simulating a Brownian motion
-* 13.4. Simulating a stochastic differential equation
+* [13.1. Simulating a discrete-time Markov chain](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter13_stochastic/01_markov.ipynb)
+* [13.2. Simulating a Poisson process](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter13_stochastic/02_poisson.ipynb)
+* [13.3. Simulating a Brownian motion](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter13_stochastic/03_brownian.ipynb)
+* [13.4. Simulating a stochastic differential equation](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter13_stochastic/04_sde.ipynb)
+* [Full list of references](https://github.com/ipython-books/cookbook-code/blob/master/references/chapter13_stochastic.md)
+
 
 
 ### Chapter 14: Graphs, Geometry and Geographic Information Systems
