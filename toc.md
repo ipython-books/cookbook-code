@@ -35,15 +35,16 @@
 * [Full list of references](https://github.com/ipython-books/cookbook-code/blob/master/references/chapter02_best_practices.md)
 
 
-### Chapter 3: Master the Notebook
+### Chapter 3: Mastering the Notebook
 
-* 3.1. Teaching programming in the notebook with IPython blocks
-* 3.2. Converting an IPython notebook to another format
-* 3.3. Adding custom controls in the notebook toolbar
-* 3.4. Customizing CSS in the notebook
-* 3.5. Creating basic widgets in the notebook: a piano in the notebook
-* 3.6. Creating a custom Javascript widget in the notebook: an Excel-like data grid editor for Pandas
-* 3.7. Processing webcam images in real-time from the notebook
+* [3.1. Teaching programming in the notebook with IPython blocks](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter03_notebook/01_blocks.ipynb)
+* [3.2. Converting an IPython notebook to other formats with nbconvert](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter03_notebook/02_nbformat.ipynb)
+* [3.3. Adding custom controls in the notebook toolbar](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter03_notebook/03_controls.ipynb)
+* [3.4. Customizing the CSS style in the notebook](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter03_notebook/04_css.ipynb)
+* [3.5. Using interactive widgets: a piano in the notebook](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter03_notebook/05_basic_widgets.ipynb)
+* [3.6. Creating a custom Javascript widget in the notebook: a spreadsheet editor for Pandas](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter03_notebook/06_widgets.ipynb)
+* [3.7. Processing webcam images in real-time from the notebook](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter03_notebook/07_webcam.ipynb)
+* [Full list of references](https://github.com/ipython-books/cookbook-code/blob/master/references/chapter03_notebook.md)
 
 
 ### Chapter 4: Profiling and Optimization
