@@ -143,14 +143,14 @@
 
 ### Chapter 11: Image and Audio Processing
 
-* 11.1. Manipulating the exposure of an image
-* 11.2. Applying filters on an image
-* 11.3. Segmenting an image
-* 11.4. Finding points of interest in an image
-* 11.5. Detecting faces in an image with OpenCV
-* 11.6. Applying digital filters to speech sounds
-* 11.7. Creating a sound synthesizer in the notebook
-* More recipes coming soon in this chapter
+* [11.1. Manipulating the exposure of an image](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter11_image/01_exposure.ipynb)
+* [11.2. Applying filters on an image](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter11_image/02_filters.ipynb)
+* [11.3. Segment an image](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter11_image/03_segmentation.ipynb)
+* [11.4. Find points of interest in an image](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter11_image/04_interest.ipynb)
+* [11.5. Detect faces in an image with OpenCV](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter11_image/05_faces.ipynb)
+* 11.6. Apply digital filters to speech sounds: [Python 2](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter11_image/06_speech_py2.ipynb) or [Python 3](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter11_image/06_speech.ipynb)
+* [11.7. Create a sound synthesizer in the notebook](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter11_image/07_synth.ipynb)
+* [Full list of references](https://github.com/ipython-books/cookbook-code/blob/master/references/chapter11_image.md)
 
 
 ### Chapter 12: Deterministic Dynamical Systems
