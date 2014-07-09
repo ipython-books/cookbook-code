@@ -39,7 +39,7 @@ Full list of references in Chapter 11 of the [IPython Cookbook](http://ipython-b
 * [Train your own cascade](http://docs.opencv.org/doc/user_guide/ug_traincascade.html).
 * [OpenCV's cascade classification API reference](http://docs.opencv.org/modules/objdetect/doc/cascade_classification.html).
 * [Viola–Jones object detection framework](http://en.wikipedia.org/wiki/Viola%E2%80%93Jones_object_detection_framework).
-* [Boosting](http://en.wikipedia.org/wiki/Boosting_(machine_learning), or how to create one strong classifier from many weak classifiers.
+* [Boosting](http://en.wikipedia.org/wiki/Boosting_(machine_learning)), or how to create one strong classifier from many weak classifiers.
 
 
 ## Recipe 6
