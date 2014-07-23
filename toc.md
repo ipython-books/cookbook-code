@@ -155,10 +155,11 @@
 
 ### Chapter 12: Deterministic Dynamical Systems
 
-* 12.1. Plotting the bifurcation diagram of a chaotic dynamical system
-* 12.2. Simulating an elementary cellular automaton
-* 12.3. Simulating an Ordinary Differential Equation with Scipy
-* 12.4. Simulating a partial differential equation: reaction-diffusion systems and Turing patterns
+* [12.1. Plot the bifurcation diagram of a chaotic dynamical system](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter12_deterministic/01_bifurcation.ipynb)
+* [12.2. Simulate an elementary cellular automaton](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter12_deterministic/02_cellular.ipynb)
+* [12.3. Simulate an Ordinary Differential Equation with SciPy](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter12_deterministic/03_ode.ipynb)
+* [12.4. Simulate a partial differential equation: reaction-diffusion systems and Turing patterns](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter12_deterministic/04_turing.ipynb)
+* [Full list of references](https://github.com/ipython-books/cookbook-code/blob/master/references/chapter12_deterministic.md)
 
 
 ### Chapter 13: Stochastic Dynamical Systems
@@ -173,13 +174,15 @@
 
 ### Chapter 14: Graphs, Geometry and Geographic Information Systems
 
-* 14.1. Manipulating and visualize graphs with NetworkX
-* 14.2. Analyzing a social network with NetworkX
-* 14.3. Resolving dependencies in a Directed Acyclic Graph with a topological sort
-* 14.4. Computing connected components in an image
-* 14.5. Computing the Voronoi diagram of a set of points
-* 14.6. Manipulating geospatial data with Shapely and Basemap
-* 14.7. Creating a route planner for road network
+* [14.1. Manipulate and visualize graphs with NetworkX](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter14_graphgeo/01_networkx.ipynb)
+* [14.2. Analyze a social network with NetworkX](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter14_graphgeo/02_social.ipynb)
+* [14.3. Resolve dependencies in a Directed Acyclic Graph with a topological sort](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter14_graphgeo/03_dag.ipynb)
+* [14.4. Compute connected components in an image](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter14_graphgeo/04_connected.ipynb)
+* [14.5. Compute the Voronoi diagram of a set of points](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter14_graphgeo/05_voronoi.ipynb)
+* [14.6. Manipulate geospatial data with Shapely and basemap](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter14_graphgeo/06_gis.ipynb)
+* [14.7. Create a route planner for road network](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter14_graphgeo/07_gps.ipynb)
+* [Full list of references](https://github.com/ipython-books/cookbook-code/blob/master/references/chapter14_graphs.md)
+
 
 
 ### Chapter 15: Symbolic and Numerical Mathematics
