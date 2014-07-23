@@ -19,7 +19,8 @@
 * [1.2. Getting started with exploratory data analysis in IPython](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter01_basic/02_pandas.ipynb)
 * [1.3. Introducing the multidimensional array in NumPy for fast array computations](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter01_basic/03_numpy.ipynb)
 * [1.4. Creating an IPython extension with your own magic commands](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter01_basic/04_magic.ipynb)
-* More recipes coming soon in this chapter
+* [1.5. Mastering IPython's configuration system](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter01_basic/05_config.ipynb)
+* [1.6. Creating a simple kernel for IPython](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter01_basic/06_kernel.ipynb)
 * [Full list of references](https://github.com/ipython-books/cookbook-code/blob/master/references/chapter01_intro.md)
 
 
@@ -79,7 +80,8 @@
 * [5.7. Mandelbrot in CUDA](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter05_hpc/07_cuda.ipynb)
 * [5.8. Mandelbrot in OpenCL](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter05_hpc/08_opencl.ipynb)
 * [5.9. Parallel computing with IPython](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter05_hpc/09_ipyparallel.ipynb)
-* More recipes coming soon in this chapter
+* [5.10. Interacting with asynchronous parallel tasks in IPython](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter05_hpc/10_async.ipynb)
+* [5.12. Trying the Julia language in the notebook](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter05_hpc/12_julia.ipynb)
 * [Full list of references](https://github.com/ipython-books/cookbook-code/blob/master/references/chapter05_hpc.md)
 
 
@@ -91,7 +93,7 @@
 * [6.3. Creating interactive Web visualizations with Bokeh](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter06_viz/03_bokeh.ipynb)
 * [6.4. Visualizing a NetworkX graph in the IPython notebook with d3.js](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter06_viz/04_d3.ipynb)
 * [6.5. Converting matplotlib figures to d3.js visualizations with mpld3](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter06_viz/05_mpld3.ipynb)
-* More recipes coming soon in this chapter
+* [6.6. Creating high-performance interactive visualizations with Vispy and OpenGL](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter06_viz/06_vispy.ipynb)
 * [Full list of references](https://github.com/ipython-books/cookbook-code/blob/master/references/chapter06_viz.md)
 
 
@@ -116,9 +118,9 @@
 * [8.3. Learning to recognize handwritten digits with a K-nearest neighbors classifier](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter08_ml/03_digits.ipynb)
 * [8.4. Natural Language Processing: Learning From Text](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter08_ml/04_text.ipynb)
 * [8.5. Using Support Vector Machines for classification tasks](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter08_ml/05_svm.ipynb)
-* [8.6. Reducing the dimensionality of your data with Principal Component Analysis](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter08_ml/06_pca.ipynb)
-* [8.7. Detecting hidden structures in your dataset with clustering](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter08_ml/07_clustering.ipynb)
-* More recipes coming soon in this chapter
+* [8.6. Using a random forest to select important features for regression](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter08_ml/06_random_forest.ipynb)
+* [8.7. Reducing the dimensionality of your data with Principal Component Analysis](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter08_ml/07_pca.ipynb)
+* [8.8. Detecting hidden structures in your dataset with clustering](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter08_ml/08_clustering.ipynb)
 * [Full list of references](https://github.com/ipython-books/cookbook-code/blob/master/references/chapter08_ml.md)
 
 
@@ -137,7 +139,6 @@
 * [10.1. Analyzing the frequency components of a signal with a Fast Fourier Transform](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter10_signal/01_fourier.ipynb)
 * [10.2. Applying a linear filter to a digital signal](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter10_signal/02_filter.ipynb)
 * [10.3. Computing the autocorrelation of a time series](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter10_signal/03_autocorrelation.ipynb)
-* More recipes coming soon in this chapter
 * [Full list of references](https://github.com/ipython-books/cookbook-code/blob/master/references/chapter10_signal.md)
 
 
