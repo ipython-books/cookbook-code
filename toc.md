@@ -117,7 +117,7 @@
 * [8.1. Getting started with scikit-learn](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter08_ml/01_scikit.ipynb)
 * [8.2. Predicting who will survive on the Titanic with logistic regression](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter08_ml/02_titanic.ipynb)
 * [8.3. Learning to recognize handwritten digits with a K-nearest neighbors classifier](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter08_ml/03_digits.ipynb)
-* [8.4. Learning to recognize handwritten digits with a K-nearest neighbors classifier](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter08_ml/04_text.ipynb)
+* [8.4. Learning from text: Naive Bayes for Natural Language Processing](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter08_ml/04_text.ipynb)
 * [8.5. Using Support Vector Machines for classification tasks](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter08_ml/05_svm.ipynb)
 * [8.6. Using a random forest to select important features for regression](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter08_ml/06_random_forest.ipynb)
 * [8.7. Reducing the dimensionality of a data with a Principal Component Analysis](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter08_ml/07_pca.ipynb)
