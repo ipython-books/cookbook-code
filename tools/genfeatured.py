@@ -60,7 +60,13 @@ def transform_featured(notebook_filename):
         f.write(contents)
     
 def main():
-    transform_featured(sys.argv[1])
+    if len(sys.argv) == 1:
+        for nb in sorted([x for x in os.listdir(featured_dir)
+                          if x.endswith('.ipynb')]):
+            print(nb)
+            transform_featured(nb)
+    else:
+        transform_featured(sys.argv[1])
     
 if __name__ == '__main__':
     main()
