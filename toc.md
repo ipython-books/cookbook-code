@@ -1,14 +1,14 @@
 # IPython Cookbook: the Table of Contents
 
 * [A one-stop guide for **high-performance scientific computing** and **data science** in Python](http://ipython-books.github.io/).
-* All the code will be available as IPython notebooks (more and more notebooks will be added until the release this summer).
+* All the code is available as IPython notebooks.
 
 ## Overview
 
 * **100+ hands-on, ready-to-use, highly focused recipes** with diverse real-world examples and clear, detailed step-by-step explanations.
 * **15 chapters**
     * **Part 1 (chapters 1-6): Advanced High-Performance Interactive Computing**. For those who want to sharpen their scientific Python programming skills.
-    * **Part 2 (chapters 7-15): Standard Methods in Data Science and Applied Mathematics**. Introduction to a wide range of methods in data science and applied mathematics. This part offers you tens of *tutorials* in various topics, but doesn't contain a comprehensive treatment of all covered subjects.
+    * **Part 2 (chapters 7-15): Standard Methods in Data Science and Applied Mathematics**. Introduction to a wide range of methods in data science and applied mathematics.
     
     
 ## Full Table of Contents
