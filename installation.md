@@ -22,18 +22,34 @@ You need to know/learn, several things before you start:
 
 ### The terminal
 
-#### Windows
+#### OS-specific instructions
+
+##### Windows
 
 Use Powershell.
 
 
-#### Linux
+##### Linux
 
 TODO
 
-#### Mac OS X
+##### Mac OS X
 
 TODO
+
+
+#### Home directory
+
+* On Windows: `c:\users\yourname\`
+* On Linux: `/home/yourname/`
+
+
+#### Current directory
+
+* `cd subfolder`: go into a subfolder
+* `cd ~`: go in your home directory
+* `ls` (if on Windows and not in Powershell, replace by `dir`)
+
 
 
 ### Git
@@ -56,6 +72,7 @@ TODO
 
 Once you're relatively confortable with the terminal and git, you can install Anaconda, a Python distribution.
 
+**Don't execute `conda` or any other Python-related commands in the Anaconda directory: go somewhere else.**
 
 ### Windows
 
@@ -80,6 +97,10 @@ TODO
 ## Using Anaconda
 
 ### The basics
+
+### Updating the packages
+
+`conda update conda`
 
 
 ## Environments
@@ -112,6 +133,21 @@ Anaconda lets you maintain various isolated environements. You can switch to any
 
 ## Running Python, IPython, and the IPython notebook
 
+### IPython profile
+
+* A profile is a set of parameters and configuration files specific to a project of yours.
+* You can use different profiles for different use-cases: one profile when running code from the Cookbook, another one for your work, etc.
+* Using IPython profiles is not strictly necessary, and you can do everything in the same default profile. But it is good practice to use different profiles.
+
+
+#### Creating a profile for the cookbook
+
+`ipython profile create cookbook`
+
+#### Running IPython with this profile
+
+* Command-line interface: `ipython --profile=cookbook`
+* Notebook: `ipython notebook --profile=cookbook`
 
 
 ## Using a code editor
