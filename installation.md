@@ -1,8 +1,8 @@
-# Installation instructions
+# Beginners instructions for installing Python
 
 **We only support the Anaconda distribution, although other Python distributions should work too.**
 
-In this a *work-in-progress* document, we give very detailled instructions about how to install a full scientific Python distribution. This document targets beginners, and tackles things such as using the command-line interface, installing Anaconda, etc. These instructions are sometimes hard to find, scattered across many websites, blog posts, and posts on support mailing lists. Eventually, you'll find here the very minimum you need to know.
+In this *work-in-progress* document, we give very detailled instructions about how to install a full scientific Python distribution. This document targets beginners, and tackles things such as using the command-line interface, installing Anaconda, etc. These instructions are sometimes hard to find, scattered across many websites, blog posts, and posts on support mailing lists. Eventually, you'll find here the very minimum you need to know.
 
 This document aims at being maintained by the community: please propose a Pull Request if an information is missing.
 
