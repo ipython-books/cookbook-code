@@ -45,7 +45,7 @@
 * [3.4. Customizing the CSS style in the notebook](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter03_notebook/04_css.ipynb)
 * [3.5. Using interactive widgets: a piano in the notebook](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter03_notebook/05_basic_widgets.ipynb)
 * [3.6. Creating a custom Javascript widget in the notebook: a spreadsheet editor for Pandas](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter03_notebook/06_widgets.ipynb)
-* [3.7. Processing webcam images in real-time from the notebook](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter03_notebook/07_webcam.ipynb)
+* 3.7. Processing webcam images in real-time from the notebook: [Python 2](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter03_notebook/07_webcam_py2.ipynb) and [Python 3](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter03_notebook/07_webcam_py3.ipynb)
 * [Full list of references](https://github.com/ipython-books/cookbook-code/blob/master/references/chapter03_notebook.md)
 
 
