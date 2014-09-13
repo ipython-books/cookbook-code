@@ -77,7 +77,7 @@
     * [Cython with array buffers](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter05_hpc/05_ray_3.ipynb)
     * [Cython with tuples](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter05_hpc/05_ray_4.ipynb)
     * [Cython with structs](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter05_hpc/05_ray_5.ipynb)
-* [5.6. Releasing the GIL to take advantage of multi-core processors with Cython and OpenMP](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter05_hpc/06_openmp.ipynb)
+* 5.6. Releasing the GIL to take advantage of multi-core processors with Cython and OpenMP: [Windows](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter05_hpc/06_openmp_windows.ipynb) or [Linux](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter05_hpc/06_openmp_linux.ipynb)
 * [5.7. Writing massively parallel code for NVIDIA graphics cards (GPUs) with CUDA](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter05_hpc/07_cuda.ipynb)
 * [5.8. Writing massively parallel code for heterogeneous platforms with OpenCL](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter05_hpc/08_opencl.ipynb)
 * [5.9. Distributing Python code across multiple cores with IPython](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter05_hpc/09_ipyparallel.ipynb)
