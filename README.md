@@ -1,9 +1,9 @@
 IPython Cookbook
 ================
 
-This repository contains the recipes of the [IPython Cookbook](http://ipython-books.github.io), the definitive guide to **high-performance scientific computing** and **data science** in Python, by [Dr. Cyrille Rossant](http://cyrille.rossant.net), Packt Publishing, 400 pages, 2014. The book will be released later this summer.
+This repository contains the recipes of the [IPython Cookbook](http://ipython-books.github.io), the definitive guide to **high-performance scientific computing** and **data science** in Python, by [Dr. Cyrille Rossant](http://cyrille.rossant.net), Packt Publishing, 450 pages, September 2014.
 
-This is work in progress: [stay tuned for the next updates](https://twitter.com/cyrillerossant)!
+[Follow me on Twitter to get all updates](https://twitter.com/cyrillerossant)
 
 
 ## Featured recipes
@@ -11,7 +11,9 @@ This is work in progress: [stay tuned for the next updates](https://twitter.com/
 * [Featured Recipe #1: Getting the Best Performance out of NumPy](http://ipython-books.github.io/featured-01.html)
 * [Featured Recipe #2: Simulating a Physical System by Minimizing an Energy](http://ipython-books.github.io/featured-02.html)
 * [Featured Recipe #3: Creating a route planner for road network](http://ipython-books.github.io/featured-03.html)
-* More featured recipes coming soon!
+* [Featured Recipe #4: Introduction to Machine Learning in Python with scikit-learn](http://ipython-books.github.io/featured-04.html)
+* [Featured Recipe #5: Simulating a Partial Differential Equation: reaction-diffusion systems and Turing patterns](http://ipython-books.github.io/featured-05.html)
+* [Featured Recipe #6: Getting started with Vispy](http://ipython-books.github.io/featured-06.html)
 
 
 ## Table of contents
