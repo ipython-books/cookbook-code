@@ -38,7 +38,7 @@ This chapter details best practices for writing reproducible, high-quality code:
 
 ### Chapter 3: Mastering the Notebook
 
-This chapter covers advanced topics related to the IPython notebook, notably the **notebook format**, notebook conversions with **nbconvert**, and CSS/Javascript customization. The new **interactive widgets** available in IPython 2.0+ are also extensively covered. These techniques make data analysis in the notebook more interactive than ever.
+This chapter covers advanced topics related to the IPython notebook, notably the **notebook format**, notebook conversions with **nbconvert**, and **CSS/Javascript customization**. The new **interactive widgets** available in IPython 2.0+ are also extensively covered. These techniques make data analysis in the notebook more interactive than ever.
 
 * [3.1. Teaching programming in the notebook with IPython blocks](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter03_notebook/01_blocks.ipynb)
 * [3.2. Converting an IPython notebook to other formats with nbconvert](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter03_notebook/02_nbformat.ipynb)
@@ -52,7 +52,7 @@ This chapter covers advanced topics related to the IPython notebook, notably the
 
 ### Chapter 4: Profiling and Optimization
 
-This chapter covers methods for making your code faster and more efficient: **CPU and memory profiling** in Python, advanced optimization techniques with NumPy (including large array manipulations), and memory mapping of huge arrays with the **HDF5** file format and the PyTables library. These techniques are essential for big data analysis.
+This chapter covers methods for making your code faster and more efficient: **CPU and memory profiling** in Python, **advanced NumPy optimization techniques** (including large array manipulations), and **memory mapping** of huge arrays with the **HDF5** file format and the **PyTables** library. These techniques are essential for big data analysis.
 
 * [4.1. Evaluating the time taken by a statement in IPython](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter04_optimization/01_timeit.ipynb)
 * [4.2. Profiling your code easily with cProfile and IPython](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter04_optimization/02_profile.ipynb)
@@ -70,7 +70,7 @@ This chapter covers methods for making your code faster and more efficient: **CP
 
 ### Chapter 5: High-Performance Computing
 
-This chapter covers advanced techniques for making your code much faster: code acceleration with **Numba** and **Cython**, wrapping of C libraries in Python with **ctypes**, parallel computing with IPython, **OpenMP** and **MPI**, and General-Purpose Computing on Graphics Processing Units (GPGPU) with **CUDA** and **OpenCL**. The chapter ends with an introduction to the recent **Julia** language, designed for high-performance numerical computing, and which can be easily used in the IPython notebook.
+This chapter covers advanced techniques for making your code much faster: code acceleration with **Numba** and **Cython**, wrapping of C libraries in Python with **ctypes**, parallel computing with IPython, **OpenMP** and **MPI**, and General-Purpose Computing on Graphics Processing Units (**GPGPU**) with **CUDA** and **OpenCL**. The chapter ends with an introduction to the recent **Julia** language, designed for high-performance numerical computing, and which can be easily used in the IPython notebook.
 
 * [5.1. Accelerating pure Python code with Numba and Just-In-Time compilation](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter05_hpc/01_numba.ipynb)
 * [5.2. Accelerating array computations with Numexpr](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter05_hpc/02_numexpr.ipynb)
@@ -94,7 +94,7 @@ This chapter covers advanced techniques for making your code much faster: code a
 
 ### Chapter 6: Advanced Visualization
 
-This chapter introduces a few data visualization libraries that go beyond matplotlib in terms of styling or programming interfaces (**prettyplotlib** and **seaborn**). It also covers interactive visualization in the notebook with **Bokeh**, **mpld3**, and **D3.js**. The chapter ends with an introduction to **Vispy**, a library that leverages the power of Graphics Programming Units for high-performance interactive visualization of big data.
+This chapter introduces a few data visualization libraries that go beyond matplotlib in terms of styling or programming interfaces (**prettyplotlib** and **seaborn**). It also covers interactive visualization in the notebook with **Bokeh**, **mpld3**, and **D3.js**. The chapter ends with an introduction to **Vispy**, a library that leverages the power of Graphics Programming Units (**GPUs**) for high-performance interactive visualization of big data.
 
 * [6.1. Making nicer matplotlib figures with prettyplotlib](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter06_viz/01_prettyplotlib.ipynb)
 * [6.2. Creating beautiful statistical plots with seaborn](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter06_viz/02_seaborn.ipynb)
@@ -112,7 +112,7 @@ Part II (chapters 7-15) introduces standard methods in data science and mathemat
 
 ### Chapter 7: Statistical Data Analysis
 
-This chapter covers methods for getting insight into data. It introduces classic **frequentist and Bayesian methods** for hypothesis testing, parametric and nonparametric estimation, and model inference. The chapter leverages Python libraries such as pandas, SciPy, **statsmodels**, and **PyMC**. The last recipe introduces the statistical language **R**, which can be easily used in the notebook.
+This chapter covers methods for getting insight into data. It introduces classic **frequentist and Bayesian methods** for **hypothesis testing**, parametric and nonparametric **estimation**, and model **inference**. The chapter leverages Python libraries such as pandas, SciPy, **statsmodels**, and **PyMC**. The last recipe introduces the statistical language **R**, which can be easily used in the notebook.
 
 * [7.1. Exploring a dataset with Pandas and matplotlib](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter07_stats/01_pandas.ipynb)
 * [7.2. Getting started with statistical hypothesis testing: a simple z-test](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter07_stats/02_z_test.ipynb)
@@ -127,7 +127,7 @@ This chapter covers methods for getting insight into data. It introduces classic
 
 ### Chapter 8: Machine Learning
 
-This chapter covers methods for learning and making predictions from data. Using the **scikit-learn** Python package, this chapter illustrates fundamental data mining and machine learning concepts such as supervised and unsupervised learning, classification, regression, feature selection, feature extraction, overfitting, regularization, cross-validation, and grid search. Algorithms addressed in this chapter include logistic regression, Naive Bayes, K-nearest neighbors, Support Vector Machines, random forests, and others. These methods are applied to various types of datasets: numerical data, images, and text.
+This chapter covers methods for learning and making predictions from data. Using the **scikit-learn** Python package, this chapter illustrates fundamental data mining and machine learning concepts such as **supervised and unsupervised learning**, **classification**, **regression**, feature selection, feature extraction, overfitting, regularization, cross-validation, and grid search. Algorithms addressed in this chapter include logistic regression, Naive Bayes, K-nearest neighbors, Support Vector Machines, random forests, and others. These methods are applied to various types of datasets: numerical data, images, and text.
 
 * [8.1. Getting started with scikit-learn](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter08_ml/01_scikit.ipynb)
 * [8.2. Predicting who will survive on the Titanic with logistic regression](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter08_ml/02_titanic.ipynb)
@@ -178,7 +178,7 @@ This chapter covers signal processing methods for images and sounds. It introduc
 
 ### Chapter 12: Deterministic Dynamical Systems
 
-This chapter describes dynamical processes underlying particular types of data. It illustrates simulation techniques for discrete-time dynamical systems, as well as for both Ordinary Differential Equations and Partial Differential Equations.
+This chapter describes dynamical processes underlying particular types of data. It illustrates simulation techniques for discrete-time dynamical systems, as well as for both Ordinary Differential Equations (**ODEs**) and Partial Differential Equations (**PDEs**).
 
 * [12.1. Plotting the bifurcation diagram of a chaotic dynamical system](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter12_deterministic/01_bifurcation.ipynb)
 * [12.2. Simulating an elementary cellular automaton](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/notebooks/chapter12_deterministic/02_cellular.ipynb)
@@ -198,7 +198,7 @@ This chapter describes dynamical random processes underlying particular types of
 * [Full list of references](https://github.com/ipython-books/cookbook-code/blob/master/references/chapter13_stochastic.md)
 
 
-### Chapter 14: Graphs, Geometry and Geographic Information Systems
+### Chapter 14: Graphs, Geometry, and Geographic Information Systems
 
 This chapter covers analysis and visualization methods for graphs, social networks, road networks, maps, and geographic data.
 
