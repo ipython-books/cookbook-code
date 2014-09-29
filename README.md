@@ -10,12 +10,12 @@ This repository contains the recipes of the [IPython Cookbook](http://ipython-bo
 
 A selection of free recipes from the book:
 
-1. [Getting the best performance out of NumPy](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/featured/01_numpy_performance.ipynb)
-2. [Simulating a physical system by minimizing an energy](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/featured/02_energy_minimization.ipynb)
-3. [Creating a route planner for road network](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/featured/03_gps.ipynb)
-4. [Introduction to machine learning in Python with scikit-learn](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/featured/04_scikit.ipynb)
-5. [Simulating a partial differential equation: reaction-diffusion systems and Turing patterns](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/featured/05_turing.ipynb)
-6. [Getting started with Vispy](http://nbviewer.ipython.org/github/ipython-books/cookbook-code/blob/master/featured/06_vispy.ipynb)
+1. [Getting the best performance out of NumPy](http://ipython-books.github.io/featured-01/)
+2. [Simulating a physical system by minimizing an energy](http://ipython-books.github.io/featured-02/)
+3. [Creating a route planner for road network](http://ipython-books.github.io/featured-03/)
+4. [Introduction to machine learning in Python with scikit-learn](http://ipython-books.github.io/featured-04/)
+5. [Simulating a partial differential equation: reaction-diffusion systems and Turing patterns](http://ipython-books.github.io/featured-05/)
+6. [Getting started with Vispy](http://ipython-books.github.io/featured-06/)
 * more coming soon...
 
 
