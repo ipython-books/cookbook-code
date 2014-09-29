@@ -1,0 +1,8 @@
+data
+_old
+word
+.ipynb_checkpoints
+matplotlibrc
+*.bat
+*.json
+*.txt
