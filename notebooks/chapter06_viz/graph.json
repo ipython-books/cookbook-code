@@ -1,4 +1,150 @@
 {
+    "nodes": [
+        {
+            "club": "Mr. Hi",
+            "id": 0
+        },
+        {
+            "club": "Mr. Hi",
+            "id": 1
+        },
+        {
+            "club": "Mr. Hi",
+            "id": 2
+        },
+        {
+            "club": "Mr. Hi",
+            "id": 3
+        },
+        {
+            "club": "Mr. Hi",
+            "id": 4
+        },
+        {
+            "club": "Mr. Hi",
+            "id": 5
+        },
+        {
+            "club": "Mr. Hi",
+            "id": 6
+        },
+        {
+            "club": "Mr. Hi",
+            "id": 7
+        },
+        {
+            "club": "Mr. Hi",
+            "id": 8
+        },
+        {
+            "club": "Officer",
+            "id": 9
+        },
+        {
+            "club": "Mr. Hi",
+            "id": 10
+        },
+        {
+            "club": "Mr. Hi",
+            "id": 11
+        },
+        {
+            "club": "Mr. Hi",
+            "id": 12
+        },
+        {
+            "club": "Mr. Hi",
+            "id": 13
+        },
+        {
+            "club": "Officer",
+            "id": 14
+        },
+        {
+            "club": "Officer",
+            "id": 15
+        },
+        {
+            "club": "Mr. Hi",
+            "id": 16
+        },
+        {
+            "club": "Mr. Hi",
+            "id": 17
+        },
+        {
+            "club": "Officer",
+            "id": 18
+        },
+        {
+            "club": "Mr. Hi",
+            "id": 19
+        },
+        {
+            "club": "Officer",
+            "id": 20
+        },
+        {
+            "club": "Mr. Hi",
+            "id": 21
+        },
+        {
+            "club": "Officer",
+            "id": 22
+        },
+        {
+            "club": "Officer",
+            "id": 23
+        },
+        {
+            "club": "Officer",
+            "id": 24
+        },
+        {
+            "club": "Officer",
+            "id": 25
+        },
+        {
+            "club": "Officer",
+            "id": 26
+        },
+        {
+            "club": "Officer",
+            "id": 27
+        },
+        {
+            "club": "Officer",
+            "id": 28
+        },
+        {
+            "club": "Officer",
+            "id": 29
+        },
+        {
+            "club": "Officer",
+            "id": 30
+        },
+        {
+            "club": "Officer",
+            "id": 31
+        },
+        {
+            "club": "Officer",
+            "id": 32
+        },
+        {
+            "club": "Officer",
+            "id": 33
+        }
+    ],
+    "directed": false,
+    "multigraph": false,
+    "graph": [
+        [
+            "name",
+            "Zachary's Karate Club"
+        ]
+    ],
     "links": [
         {
             "target": 1,
@@ -311,152 +457,6 @@
         {
             "target": 33,
             "source": 32
-        }
-    ],
-    "multigraph": false,
-    "directed": false,
-    "graph": [
-        [
-            "name",
-            "Zachary's Karate Club"
-        ]
-    ],
-    "nodes": [
-        {
-            "id": 0,
-            "club": "Mr. Hi"
-        },
-        {
-            "id": 1,
-            "club": "Mr. Hi"
-        },
-        {
-            "id": 2,
-            "club": "Mr. Hi"
-        },
-        {
-            "id": 3,
-            "club": "Mr. Hi"
-        },
-        {
-            "id": 4,
-            "club": "Mr. Hi"
-        },
-        {
-            "id": 5,
-            "club": "Mr. Hi"
-        },
-        {
-            "id": 6,
-            "club": "Mr. Hi"
-        },
-        {
-            "id": 7,
-            "club": "Mr. Hi"
-        },
-        {
-            "id": 8,
-            "club": "Mr. Hi"
-        },
-        {
-            "id": 9,
-            "club": "Officer"
-        },
-        {
-            "id": 10,
-            "club": "Mr. Hi"
-        },
-        {
-            "id": 11,
-            "club": "Mr. Hi"
-        },
-        {
-            "id": 12,
-            "club": "Mr. Hi"
-        },
-        {
-            "id": 13,
-            "club": "Mr. Hi"
-        },
-        {
-            "id": 14,
-            "club": "Officer"
-        },
-        {
-            "id": 15,
-            "club": "Officer"
-        },
-        {
-            "id": 16,
-            "club": "Mr. Hi"
-        },
-        {
-            "id": 17,
-            "club": "Mr. Hi"
-        },
-        {
-            "id": 18,
-            "club": "Officer"
-        },
-        {
-            "id": 19,
-            "club": "Mr. Hi"
-        },
-        {
-            "id": 20,
-            "club": "Officer"
-        },
-        {
-            "id": 21,
-            "club": "Mr. Hi"
-        },
-        {
-            "id": 22,
-            "club": "Officer"
-        },
-        {
-            "id": 23,
-            "club": "Officer"
-        },
-        {
-            "id": 24,
-            "club": "Officer"
-        },
-        {
-            "id": 25,
-            "club": "Officer"
-        },
-        {
-            "id": 26,
-            "club": "Officer"
-        },
-        {
-            "id": 27,
-            "club": "Officer"
-        },
-        {
-            "id": 28,
-            "club": "Officer"
-        },
-        {
-            "id": 29,
-            "club": "Officer"
-        },
-        {
-            "id": 30,
-            "club": "Officer"
-        },
-        {
-            "id": 31,
-            "club": "Officer"
-        },
-        {
-            "id": 32,
-            "club": "Officer"
-        },
-        {
-            "id": 33,
-            "club": "Officer"
         }
     ]
 }
