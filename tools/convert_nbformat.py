@@ -65,7 +65,7 @@ def convert_to_v4(path):
          }
         }
 
-    # validate(nb_new)
+    validate(nb_new)
     # write(nb_new, path)
 
 if __name__ == '__main__':
@@ -80,5 +80,5 @@ if __name__ == '__main__':
                 continue
             print("converting", file)
 
-            fix_v3(file)
-            # convert_to_v4(file)
+            # fix_v3(file)
+            convert_to_v4(file)
