@@ -29,15 +29,11 @@ def iter_chapters(root):
                             if _.startswith('chapter')]):
         yield chapter
 
-def iter_recipes(root, dir):
+def iter_recipes(root, dir=''):
     files = sorted([_ for _ in os.listdir(op.join(root, dir))
         if re.match(r'\d{2}\_[^.]+\.ipynb', _)])
     for file in files:
         yield file
-
-curdir = op.realpath(op.dirname(os.path.abspath(__file__)))
-root = op.realpath(op.join(curdir, '../notebooks'))
-
 
 def fix_v3(path):
     with open(path, 'r') as f:
@@ -49,8 +45,6 @@ def fix_v3(path):
 
     with open(path, 'w') as f:
         json.dump(nb, f, indent=2)
-
-
 
 def convert_to_v4(path):
     nb = read(path, 3)
@@ -79,17 +73,35 @@ def convert_to_v4(path):
     validate(nb_new)
     write(nb_new, path)
 
+curdir = op.realpath(op.dirname(os.path.abspath(__file__)))
+root = op.realpath(op.join(curdir, '../notebooks'))
+featured = op.realpath(op.join(curdir, '../featured'))
+
 if __name__ == '__main__':
 
-    for chapter in iter_chapters(root):
-        for recipe in iter_recipes(root, chapter):
-            file = op.join(root, chapter, recipe)
+    # Chapter notebooks
+    # for chapter in iter_chapters(root):
+    #     for recipe in iter_recipes(root, chapter):
+    #         file = op.join(root, chapter, recipe)
 
-            if recipe in ('01_notebook.ipynb',
-                          '02_pandas.ipynb',
-                          '03_numpy.ipynb',):
-                continue
-            print("converting", file)
+    #         if recipe in ('01_notebook.ipynb',
+    #                       '02_pandas.ipynb',
+    #                       '03_numpy.ipynb',):
+    #             continue
+    #         print("converting", file)
 
-            # fix_v3(file)
-            convert_to_v4(file)
+    #         # fix_v3(file)
+    #         convert_to_v4(file)
+
+    # Featured notebooks
+    for recipe in iter_recipes(featured):
+        file = op.join(featured, recipe)
+
+        if recipe in ('01_notebook.ipynb',
+                      '02_pandas.ipynb',
+                      '03_numpy.ipynb',):
+            continue
+        print("converting", file)
+
+        # fix_v3(file)
+        convert_to_v4(file)
