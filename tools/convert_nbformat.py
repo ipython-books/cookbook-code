@@ -1,3 +1,14 @@
+"""This conversion script should not be used. It is only there for reference.
+
+This was used to convert the original notebooks in nbformat v3 (IPython 2.0)
+to nbformat v4 (IPython 3.0). A difficulty was that the original notebooks
+had invalid metadata so IPython failed at the conversion.
+
+The fix_v3() function was used to fix this before converting to v4.
+
+This script was run on 27/02/2015.
+
+"""
 
 import re
 import json
