@@ -66,7 +66,7 @@ def convert_to_v4(path):
         }
 
     validate(nb_new)
-    # write(nb_new, path)
+    write(nb_new, path)
 
 if __name__ == '__main__':
 
