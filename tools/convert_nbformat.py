@@ -27,13 +27,23 @@ def iter_recipes(root, dir):
 curdir = op.realpath(op.dirname(os.path.abspath(__file__)))
 root = op.realpath(op.join(curdir, '../notebooks'))
 
+
+def fix_v3(path):
+    with open(path, 'r') as f:
+        nb = json.load(f)
+
+    for cell in nb['worksheets'][0]['cells']:
+        if isinstance(cell.get('metadata', {}), list):
+            cell['metadata'] = {}
+
+    with open(path, 'w') as f:
+        json.dump(f, nb)
+
+
+
 def convert_to_v4(path):
     nb = read(path, 3)
     nb_new = convert(nb, 4)
-
-    for cell in nb_new['cells']:
-        if cell.get('metadata', {}) == []:
-            cell['metadata'] = {}
 
     nb_new["metadata"] ={
          "kernelspec": {
@@ -55,8 +65,8 @@ def convert_to_v4(path):
          }
         }
 
-    validate(nb_new)
-    write(nb_new, path)
+    # validate(nb_new)
+    # write(nb_new, path)
 
 if __name__ == '__main__':
 
@@ -69,4 +79,6 @@ if __name__ == '__main__':
                           '03_numpy.ipynb',):
                 continue
             print("converting", file)
-            convert_to_v4(file)
+
+            fix_v3(file)
+            # convert_to_v4(file)
