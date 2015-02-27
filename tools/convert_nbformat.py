@@ -37,7 +37,7 @@ def fix_v3(path):
             cell['metadata'] = {}
 
     with open(path, 'w') as f:
-        json.dump(f, nb)
+        json.dump(nb, f, indent=2)
 
 
 
