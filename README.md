@@ -1,6 +1,8 @@
 IPython Cookbook
 ================
 
+[![Join the chat at https://gitter.im/ipython-books/cookbook-code](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/ipython-books/cookbook-code?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 This repository contains the recipes of the [IPython Cookbook](http://ipython-books.github.io), the definitive guide to **high-performance scientific computing** and **data science** in Python, by [Dr. Cyrille Rossant](http://cyrille.rossant.net), Packt Publishing, 500 pages, September 2014.
 
 [Follow me on Twitter to get all updates](https://twitter.com/cyrillerossant)
